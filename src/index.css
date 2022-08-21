@@ -18,8 +18,8 @@ html {
   --dark-color: rgb(52, 52, 52);
   --white-color: rgb(255, 255, 255);
   --text-dark: rgb(50, 75, 76);
-  --pry-font: 'League Spartan, sans-serif';
-  --sec-font: 'Montserrat, sans-serif';
+  --pry-font: 'League Spartan', sans-serif;
+  --sec-font: 'Montserrat', sans-serif;
 }
 
 body {
