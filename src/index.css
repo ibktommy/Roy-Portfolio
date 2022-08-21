@@ -24,4 +24,36 @@ html {
 
 body {
   font-family: var(--sec-font);
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: .3rem;
+  margin-bottom: 3rem;
 }

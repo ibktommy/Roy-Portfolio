@@ -9,6 +9,7 @@ import RentACar from './pages/RentAcar/RentACar'
 
 function App() {
   return (
+    <div className="container">
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
@@ -19,6 +20,8 @@ function App() {
         <Route path='/topmost' element={<Topmost />} />
       </Routes>
     </Router>
+
+    </div>
   );
 }
 

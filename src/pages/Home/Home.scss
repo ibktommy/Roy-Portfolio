@@ -1,0 +1,82 @@
+header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5rem;
+
+  p {
+    margin-bottom: 4rem;
+  }
+
+  span {
+    font-family: var(--pry-font);
+    font-size: 5rem;
+    color: var(--pry-color);
+    letter-spacing: .1rem;
+  }
+
+  .resume {
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    color: var(--dark-color);
+    align-self: flex-end;
+    font-weight: 500;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      bottom: -10%;
+      left: 0;
+      width: 100%;
+      height: .2rem;
+      background-color: var(--dark-color);
+    }
+  }
+}
+
+.project-summary {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+  margin-bottom: 10rem;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+
+  &-image {
+    width: 45rem;
+    height: auto;
+    // box-shadow: var(--pry-box-shadow);
+    border-radius: .5rem;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &-text {
+    width: 65rem;
+    gap: 2rem;
+
+    &-tag {
+      text-transform: capitalize;
+      font-size: 1.6rem;
+    }
+
+    &-title {
+      font-family: var(--sec-font);
+      font-size: 3.5rem;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    &-para {
+      font-family: var(--pry-font);
+      font-size: 2.2rem;
+      font-weight: 300;
+    }
+  }
+}
