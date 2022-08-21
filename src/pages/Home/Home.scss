@@ -68,24 +68,24 @@ header {
 
     &-title {
       font-family: var(--sec-font);
-      font-size: 3.5rem;
-      font-weight: 600;
+      font-size: 4rem;
+      font-weight: 800;
       text-transform: capitalize;
     }
 
     &-para {
       font-family: var(--pry-font);
-      font-size: 2.2rem;
-      font-weight: 300;
+      font-size: 2.5rem;
+      font-weight: 400;
     }
   }
 }
 
 // MEDIA QUERY 
-@media (max-width: 1028px) {
+@media (max-width: 1024px) {
   header {
-  font-size: 1.8rem;
-  font-weight: 700;
+    font-size: 1.8rem;
+    font-weight: 600;
 
   span {
     font-size: 3rem;
@@ -96,35 +96,43 @@ header {
   }
 }
 
-.project-summary {
-  flex-direction: column-reverse;
-  gap: 10rem;
-  margin-bottom: 5rem;
-
-  &.reverse {
+  .project-summary {
     flex-direction: column-reverse;
-  }
+    gap: 10rem;
+    margin-bottom: 5rem;
 
-  &-image {
-    width: 35rem;
-    height: auto;
-  }
-
-  &-text {
-    width: 65rem;
-    gap: 2rem;
-
-    &-tag {
-      font-size: 1.4rem;
+    &.reverse {
+      flex-direction: column-reverse;
     }
 
-    &-title {
-      font-size: 2.5rem;
+    &-image {
+      width: 80vw;
+      height: auto;
     }
 
-    &-para {
-      font-size: 1.8rem;
+    &-text {
+      width: 90vw;
+      gap: 2rem;
+
+      &-tag {
+        font-size: 1.4rem;
+      }
+
+      &-title {
+        font-size: 3rem;
+      }
+
+      &-para {
+        font-size: 2.2rem;
+      }
     }
   }
 }
+
+@media (max-width: 768px) {
+  header {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
 }

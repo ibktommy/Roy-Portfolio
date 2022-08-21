@@ -26,6 +26,7 @@ body {
   font-family: var(--sec-font);
   line-height: 1.2;
   color: var(--dark-color);
+  overflow-x: hidden;
 }
 
 .flex {
@@ -51,9 +52,28 @@ a {
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 4.2rem;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: .3rem;
   margin-bottom: 3rem;
+}
+
+/* MEDIA QUERY  */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100vw;
+    width: 100vw;
+    padding: 3.4rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.4rem;
+  }
 }
