@@ -17,7 +17,7 @@ const HomeCard = ({ title, details, image, btnText, reverse, tag }) => {
           <p className="project-summary-text-para">
             {details}
           </p>
-          <Link to='/topmost'>{btnText}</Link>
+          <Link to='/topmost' className='btn flex'>{btnText}</Link>
         </div>
       </div>
     </>

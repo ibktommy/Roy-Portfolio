@@ -10,7 +10,7 @@ header {
   span {
     font-family: var(--pry-font);
     font-size: 5rem;
-    color: var(--pry-color);
+    color: var(--sec-color);
     letter-spacing: .1rem;
   }
 
@@ -47,7 +47,6 @@ header {
   &-image {
     width: 45rem;
     height: auto;
-    // box-shadow: var(--pry-box-shadow);
     border-radius: .5rem;
 
     & img {
