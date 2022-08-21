@@ -5,16 +5,23 @@
 }
 
 html {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 62.5%;
 }
 
 /* SPECIAL CLASSES */
 :root {
   --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
-  --box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
-  --pry-color: rgb(66, 0, 255);
+  --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
+  --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px;
+  --pry-color: rgb(164, 92, 255);
+  --pry-dark-color: rgb(0, 0, 199);
   --dark-color: rgb(52, 52, 52);
   --white-color: rgb(255, 255, 255);
   --text-dark: rgb(50, 75, 76);
+  --pry-font: 'League Spartan, sans-serif';
+  --sec-font: 'Montserrat, sans-serif';
+}
+
+body {
+  font-family: var(--sec-font);
 }
