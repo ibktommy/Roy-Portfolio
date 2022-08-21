@@ -74,7 +74,8 @@ a {
 }
 
 .btn:hover {
-  background-color: var(--pry-color);
+  color: var(--pry-color);
+  background-color: var(--white-color);
   transform: translateY(-.3rem);
 }
 
@@ -92,7 +93,7 @@ a {
 
   .btn {
     width: 15rem;
-    height: 3.5rem;
+    height: 4rem;
     font-size: 2rem;
   }
 }
