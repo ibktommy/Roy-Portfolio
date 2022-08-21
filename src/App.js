@@ -5,7 +5,8 @@ import Isave from './pages/Isave/Isave'
 import Maclassics from './pages/Maclassics/Maclassics'
 import Topmost from './pages/Topmost/Topmost'
 import Npay from './pages/Npay/Npay'
-import RentACar from './pages/RentAcar/RentACar'
+import Exquite from './pages/Exquite/Exquite'
+import Mace from './pages/Mace/Mace'
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/isave' element={<Isave />} />
         <Route path='/maclassics' element={<Maclassics />} />
+        <Route path='/mace' element={<Mace />} />
         <Route path='/npay' element={<Npay />} />
-        <Route path='/rent-a-car' element={<RentACar />} />
+        <Route path='/exquite' element={<Exquite />} />
         <Route path='/topmost' element={<Topmost />} />
       </Routes>
     </Router>

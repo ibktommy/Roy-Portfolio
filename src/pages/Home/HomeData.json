@@ -4,16 +4,18 @@
 		"title": "topmost",
 		"details": "Topmost Wears is business that sells luxurious, quality clothing and clothing accessories to all locations in Nigeria. I overtook the task of redesigning their web platform and helping to solve problems faced by its users.",
 		"btnText": "view details",
-		"image": "./images/Home/topmost.png"
+		"image": "./images/Home/topmost.png",
+		"link": "topmost"
 	},
 
 	{
 		"id": 2,
-		"title": "maclassic cakes",
+		"title": "maclassics cakes",
 		"details": "Maclassics is a cake and confectionaries company that produces and sells cakes to customers. I created the brand design and shaped user experience for Maclassics app.",
 		"btnText": "view details",
 		"image": "./images/Home/maclassic.png",
-		"reverse": "reverse"
+		"reverse": "reverse",
+		"link": "maclassics"
 	},
 
 	{
@@ -21,7 +23,8 @@
 		"title": "isave",
 		"details": "Isave focuses on managing users savings funds whilst providing an investment platform. I designed the Isave app and user experience.",
 		"btnText": "view details",
-		"image": "./images/Home/isave.png"
+		"image": "./images/Home/isave.png",
+		"link": "isave"
 	},
 
 	{
@@ -30,7 +33,8 @@
 		"details": "Mace makes and sells high quality furnitures. I boosted the brand by designing the mobile app, also the user experience.",
 		"btnText": "view details",
 		"image": "./images/Home/mace.png",
-		"reverse": "reverse"
+		"reverse": "reverse",
+		"link": "mace"
 	},
 
 	{
@@ -39,7 +43,8 @@
 		"title": "N-PAY",
 		"details": "N-PAY is a fintech app I designed for the Federal Inland Revenue Service (FIRS) of the federal republic of Nigeria to provide a platform where citizens can pay taxes and other bills meant for the government.",
 		"btnText": "view details",
-		"image": "./images/Home/npay.png"
+		"image": "./images/Home/npay.png",
+		"link": "npay"
 	},
 
 	{
@@ -48,6 +53,7 @@
 		"details": "Exquite Autos offers a wide range of vehicles for lease services to it’s customers. I designed the Rentacar’s mobile application UI and tone of user experience.",
 		"btnText": "view details",
 		"image": "./images/Home/exqAutos.png",
-		"reverse": "reverse"
+		"reverse": "reverse",
+		"link": "exquite"
 	}
 ]
