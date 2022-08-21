@@ -80,3 +80,51 @@ header {
     }
   }
 }
+
+// MEDIA QUERY 
+@media (max-width: 1028px) {
+  header {
+  font-size: 1.8rem;
+  font-weight: 700;
+
+  span {
+    font-size: 3rem;
+  }
+
+  .resume {
+    font-size: 1.6rem;
+  }
+}
+
+.project-summary {
+  flex-direction: column-reverse;
+  gap: 10rem;
+  margin-bottom: 5rem;
+
+  &.reverse {
+    flex-direction: column-reverse;
+  }
+
+  &-image {
+    width: 35rem;
+    height: auto;
+  }
+
+  &-text {
+    width: 65rem;
+    gap: 2rem;
+
+    &-tag {
+      font-size: 1.4rem;
+    }
+
+    &-title {
+      font-size: 2.5rem;
+    }
+
+    &-para {
+      font-size: 1.8rem;
+    }
+  }
+}
+}
