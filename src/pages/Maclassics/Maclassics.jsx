@@ -153,14 +153,45 @@ const Maclassics = () => {
 			<div className="gen-details-color">
 				<h4>Color</h4>
 				<p>
-					To boost the time efficiency of the production team, I have
-					created various reuseable components for the design system. Design
-					sytems also help users identify patterns while on the app.
+					To boost the time efficiency of the production team, I have created
+					various reuseable components for the design system. Design sytems also
+					help users identify patterns while on the app.
 				</p>
 
-        <div className="details-img flex">
-          <img src={ColorBox} alt="details-img" />
-        </div>
+				<div className="details-img flex">
+					<img src={ColorBox} alt="details-img" />
+				</div>
+			</div>
+
+			<div className="gen-details-visual">
+				<h4>Visual Design</h4>
+				<h5>
+					Building of icons to simplify the uploading of cakes for designated
+					customization for personal user requests.
+				</h5>
+				<p>
+					A set of icons were used in the final design including a custom icon
+					which is used to solve the problem of uploading customized cakes.
+					<br />
+					The customized icon which is{" "}
+					<strong>
+						based on the Maclassics logo is situated at the center of the bottom
+						navigation, to serve as a call to action for uploading images from
+						the camera or gallery and texts to enable the customization and
+						request of cake designs by our users.
+					</strong>
+					<br />
+					It was placed there to make it easy to spot and tap for quick user
+					journey and it is available on all screens on the app.
+					<br />
+					The customization screen is designed to provide a significant user
+					experience, users also have the option to contact the customer
+					sewrvice for further information on their requests.
+				</p>
+
+				<div className="details-img flex">
+					<img src={ColorBox} alt="details-img" />
+				</div>
 			</div>
 		</section>
 	);
