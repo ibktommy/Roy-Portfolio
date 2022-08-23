@@ -20,7 +20,7 @@ function localStorageTheme() {
 }
 
 function App() {
-  // Setting App State For Theme
+  // Setting App State
   const [theme, setTheme] = useState(localStorageTheme())
 
   useEffect(() => {
