@@ -1,0 +1,29 @@
+.maclassics {
+  .gen-details {
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+
+    &-left {
+      flex: 50%;
+      gap: 1.5rem;
+    }
+
+    &-left,
+    &-right {
+      flex: 50%;
+
+      h4 {
+        font-size: 1.6rem;
+        margin-bottom: .8rem;
+      }
+
+      p {
+        text-transform: capitalize;
+        font-size: 1.3rem;
+        text-align: justify;
+        line-height: 1.4;
+      }
+    }
+  }
+}
