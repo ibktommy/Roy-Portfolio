@@ -66,21 +66,53 @@
           object-fit: cover;
         }
       }
-
-      &_bottom {
-        .image-container {
-          height: max-content;
-      margin: 2rem 0 5rem 0;
-      padding: 3rem 4rem;
-      background-color: var(--image-bg);
-        }
-      }
     }
   }
 
   .gen-details-color {
     img {
       width: 25rem;
+    }
+  }
+
+  .gen-details-visual {
+    h5 {
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: 500;
+      margin-bottom: .8rem;
+    }
+
+    &_process {
+      ol {
+        display: inline-block;
+        margin-left: 1.5rem;
+
+        li {
+          font-weight: 500;
+          font-size: 1.4rem;
+        }
+      }
+
+      p {
+      margin: 1.5rem 0;
+      }
+
+      .image-container {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+
+  .gen-details-profile {
+    .image-container {
+      width: 100%;
+
+      img {
+        width: 27rem;
+      }
     }
   }
 }

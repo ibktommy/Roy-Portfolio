@@ -15,6 +15,14 @@ import DesignBtnTwo from "../../images/maclassis/main/Button.png";
 import DesignBtnThree from "../../images/maclassis/main/bottom nav.png";
 import DesignBtnFour from "../../images/maclassis/main/MACLASSICS icon 1.png";
 import ColorBox from "../../images/maclassis/main/Group 14 1.png";
+import VisualGroup from "../../images/maclassis/main/Group 27067.png";
+import VisualHome from "../../images/maclassis/main/HOME 3.png";
+import VisualBag from "../../images/maclassis/main/Bag.png";
+import VisualSummary from "../../images/maclassis/main/Checkout-SUMMARY.png";
+import VisualDelivery from "../../images/maclassis/main/Checkout-DELIVERY.png";
+import VisualPayment from "../../images/maclassis/main/Checkout-PAYMENT.png";
+import VisualCongrats from "../../images/maclassis/main/CONGRATS 1.png";
+import ProfileImg from "../../images/maclassis/main/Profile 1.png";
 
 const Maclassics = () => {
 	return (
@@ -173,6 +181,7 @@ const Maclassics = () => {
 					A set of icons were used in the final design including a custom icon
 					which is used to solve the problem of uploading customized cakes.
 					<br />
+					<br />
 					The customized icon which is{" "}
 					<strong>
 						based on the Maclassics logo is situated at the center of the bottom
@@ -184,15 +193,82 @@ const Maclassics = () => {
 					It was placed there to make it easy to spot and tap for quick user
 					journey and it is available on all screens on the app.
 					<br />
+					<br />
 					The customization screen is designed to provide a significant user
 					experience, users also have the option to contact the customer
 					sewrvice for further information on their requests.
 				</p>
 
-				<div className="details-img flex">
-					<img src={ColorBox} alt="details-img" />
+				<div className="image-container flex">
+					<img src={VisualGroup} alt="details-img" />
+				</div>
+
+				<h5>
+					The main menu has been well categorized with user experience in mind.
+					The screen is divided to enable users browse thier wants by event and
+					flavour.
+				</h5>
+
+				<p>
+					As part of the company’s objectives to deliver cakes in a personal
+					manner to users, I have helped shape the UI to enable users in one
+					click find what they are looking for without using the search box.
+					Users can now browse and test out the company’s products. It also
+					helps the company showcase its expertise and designs on many different
+					events
+				</p>
+
+				<div className="image-container flex">
+					<img src={VisualHome} alt="details-img" />
+				</div>
+
+				<div className="gen-details-visual_process">
+					<h5>
+						Checkout process for maclassic have been designed to accomodate only
+						three screens.
+					</h5>
+					<ol>
+						<li>Delivey</li>
+						<li>Payment</li>
+						<li>Summary</li>
+					</ol>
+
+					<p>
+						I have sectioned the checkout process to enable all neccessary
+						information be entered by the users. A calendar and delivery time
+						has been included in the delivery screen because cakes are timely
+						products that may lose its significance if not made ready at the
+						specific time its needed.
+					</p>
+
+					<div className="image-container">
+						<img src={VisualBag} alt="design-img" />
+						<img src={VisualSummary} alt="design-img" />
+						<img src={VisualDelivery} alt="design-img" />
+						<img src={VisualPayment} alt="design-img" />
+						<img src={VisualCongrats} alt="design-img" />
+					</div>
 				</div>
 			</div>
+
+			<div className="gen-details-profile">
+				<h4>Detailed</h4>
+				<p>
+					Orders can be viewed and payment cards can be accessed on the user
+					profile page. An address can also be saved to autofill during checkout
+					from the profile page.
+				</p>
+
+				<div className="details-img flex">
+					<div className="image-container flex">
+						<img src={ProfileImg} alt="details-img" />
+					</div>
+				</div>
+			</div>
+
+      <footer>
+        Maclassic Cakes
+      </footer>
 		</section>
 	);
 };

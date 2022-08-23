@@ -18,7 +18,7 @@ const Home = () => {
 				</Link>
 			</header>
 
-			<h2 className="title">My Projects</h2>
+			<h2 className="title">Work Experience</h2>
 
 			{homeData.map(({ id, ...props }) => {
         return <HomeCard key={id} {...props} />
