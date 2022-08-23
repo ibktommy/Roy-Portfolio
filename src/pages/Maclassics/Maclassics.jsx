@@ -52,7 +52,7 @@ const Maclassics = () => {
 							There has been a wide use of the maclassic app by customers to
 							place orders. The upload and customize function has made the app a
 							first choice for many users.
-							<br /> The use of design system and user flow process reduced
+							<br /><br />The use of design system and user flow process reduced
 							production time by the development team. Maclassic cakes have seen
 							a steady increase in sales revenue with the app accounting for
 							over 40% of sales since its launch.

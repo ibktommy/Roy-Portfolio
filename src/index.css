@@ -111,10 +111,10 @@ a {
 
 .project-header {
   font-family: var(--sec-font);
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 700;
   text-align: justify;
-  line-height: 1.3;
+  line-height: 1.4;
   margin-bottom: 3rem;
 }
 
@@ -150,6 +150,20 @@ footer {
     width: 15rem;
     height: 5rem;
     font-size: 1.8rem;
+  }
+
+  .project-header {
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-container {
+    width: 100%;
   }
 }
 

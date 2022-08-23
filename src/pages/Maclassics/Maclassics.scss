@@ -1,14 +1,15 @@
 .maclassics {
   h4 {
-    font-size: 1.6rem;
-    margin-bottom: .8rem;
+    font-size: 2.8rem;
+    margin: .8rem 0;
     }
 
   p {
     text-transform: capitalize;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-align: justify;
     line-height: 1.4;
+    margin-bottom: .5rem;
   }
     
   .gen-details {
@@ -42,10 +43,6 @@
       display: flex;
       justify-content: space-around;
       align-items: flex-start;
-      height: max-content;
-      margin: 2rem 0 5rem 0;
-      padding: 3rem 4rem;
-      background-color: var(--image-bg);
 
       img {
         width: 20rem;
@@ -114,5 +111,119 @@
         width: 27rem;
       }
     }
+  }
+}
+
+// MEDIA QUERY
+@media (max-width: 1024px) {
+  .maclassics {
+    h4 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+
+    .gen-details-wireframe {
+      .image-container {
+        img {
+          width: 15rem;
+        }
+      }
+    }
+
+    .gen-details-design {
+      &-images {
+        &_top {
+          img {
+            width: 25rem;
+          }
+        }
+
+        &_bottom {
+          img {
+            width: 35rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .maclassics {
+    .gen-details {
+      flex-direction: column;
+
+    &-left {
+      flex: 100%;
+      gap: 1.5rem;
+    }
+
+    &-left,
+    &-right {
+      flex: 100%;
+    }
+  }
+
+  .details-img {
+    margin: 5rem 0;
+
+    img {
+      width: 50rem;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+    .gen-details-visual {
+      .image-container:nth-of-type(1) {
+        img {
+          width: 50rem;
+        }
+      }
+    }
+
+    .gen-details-color {
+      img {
+        width: 25rem;
+      }
+    }
+
+    .gen-details-wireframe {
+      .image-container {
+        img {
+          width: 10rem;
+        }
+      }
+    }
+
+    .gen-details-design {
+      &-images {
+        &_top {
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        &_bottom {
+          .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              width: 50rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 598px) {
+  .maclassics {
+    
   }
 }
