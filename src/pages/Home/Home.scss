@@ -74,9 +74,11 @@ header {
 
     &-para {
       font-family: var(--pry-font);
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       font-weight: 400;
+      text-align: justify;
       opacity: .8;
+      line-height: 1.4;
     }
   }
 }
@@ -123,7 +125,7 @@ header {
       }
 
       &-para {
-        font-size: 2.2rem;
+        font-size: 2.1rem;
       }
     }
   }

@@ -10,7 +10,7 @@ html {
 
 /* SPECIAL CLASSES */
 :root {
-  --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  /* --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
   --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
   --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px;
   --pry-color: rgb(164, 92, 255);
@@ -18,8 +18,35 @@ html {
   --dark-color: rgb(52, 52, 52);
   --white-color: rgb(255, 255, 255);
   --text-dark: rgb(50, 75, 76);
+  --bg-color: rgb(232, 255, 255); */
   --pry-font: 'League Spartan', sans-serif;
   --sec-font: 'Montserrat', sans-serif;
+}
+
+.light-theme {
+  --pry-color: rgb(164, 92, 255);
+  --sec-color: rgb(0, 0, 199);
+  --dark-color: rgb(52, 52, 52);
+  --white-color: rgb(255, 255, 255);
+  --text-dark: rgb(50, 75, 76);
+  --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
+  --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px;
+  --bg-color: rgb(232, 255, 255);
+  --pry-font: 'League Spartan', sans-serif;
+  --sec-font: 'Montserrat', sans-serif;
+}
+
+.dark-theme {
+  --pry-color: rgb(91, 163, 0);
+  --sec-color: rgba(255, 255, 56);
+  --dark-color: rgb(203, 203, 203);
+  --white-color: rgb(0,0,0);
+  --text-dark: rgb(205, 180, 179);
+  --text-shadow: 2px 2px 2px rgba(255, 255, 255, .2);
+  --pry-box-shadow: rgba(255, 255, 255, .24) 0 3px 8px;
+  --sec-box-shadow: rgba(238, 238, 229, 0.05) 0px 4px 16px, rgba(238, 238, 229, 0.05) 0px 8px 32px;
+  --bg-color: rgb(23, 0, 0);
 }
 
 body {
@@ -27,6 +54,8 @@ body {
   line-height: 1.2;
   color: var(--dark-color);
   overflow-x: hidden;
+  background: var(--bg-color);
+  transition: all .5s ease-out;
 }
 
 .flex {
@@ -44,6 +73,14 @@ body {
   max-width: 1536px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.toggle-btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
 }
 
 a {
@@ -70,6 +107,7 @@ a {
   font-weight: 500;
   font-family: var(--sec-font);
   text-transform: capitalize;
+  letter-spacing: .2rem;
    transition: all .5s;
 }
 
