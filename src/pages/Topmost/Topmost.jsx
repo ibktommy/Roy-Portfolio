@@ -1,4 +1,5 @@
 import React from "react";
+import "./Topmost.scss";
 import Header from "./Header";
 
 const Topmost = () => {

@@ -1,17 +1,4 @@
 .maclassics {
-  h4 {
-    font-size: 2.8rem;
-    margin: .8rem 0;
-    }
-
-  p {
-    text-transform: capitalize;
-    font-size: 1.6rem;
-    text-align: justify;
-    line-height: 1.4;
-    margin-bottom: .5rem;
-  }
-    
   .gen-details {
     justify-content: space-between;
     gap: 2rem;
@@ -135,14 +122,6 @@
 
 @media (max-width: 1024px) {
   .maclassics {
-    h4 {
-      font-size: 2rem;
-    }
-
-    p {
-      font-size: 1.3rem;
-    }
-
     .gen-details-wireframe {
       .image-container {
         img {
@@ -258,14 +237,6 @@
 
 @media (max-width: 598px) {
   .maclassics {
-    h4 {
-      font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1.15rem;
-    }
-
     .details-img {
       img {
         width: 75vw;
