@@ -38,7 +38,7 @@ header {
 
     &:hover {
       color: var(--pry-color);
-      transform: scale(1.02);
+      transform: scale(1.04) translateY(.2rem);
       transition: all .5s ease;
     }
   }
