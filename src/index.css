@@ -128,6 +128,12 @@ h4 {
     margin: .8rem 0;
   }
 
+h5 {
+  font-size: 1.45rem;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
 p {
   text-transform: capitalize;
   font-size: 1.6rem;
@@ -178,6 +184,13 @@ footer {
       font-size: 2rem;
     }
 
+  h5 {
+    font-size: 1.35rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-style: italic;
+  }
+
   p {
     font-size: 1.3rem;
   }
@@ -210,8 +223,15 @@ footer {
   }
 
   h4 {
-      font-size: 1.5rem;
-    }
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+  }
 
   p {
     font-size: 1.15rem;
