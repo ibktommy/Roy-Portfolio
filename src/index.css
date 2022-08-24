@@ -22,11 +22,12 @@ html {
   --text-dark: rgb(50, 75, 76);
   --image-bg:rgb(217, 217, 217);
   --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  --image-shadow: drop-shadow(10px 10px 10px rgba(0,0,0,.35));
   --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
-  --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px;
   --bg-color: rgb(232, 255, 255);
   --pry-font: 'League Spartan', sans-serif;
   --sec-font: 'Montserrat', sans-serif;
+  /* --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px; */
 }
 
 .dark-theme {
@@ -37,8 +38,8 @@ html {
   --text-dark: rgb(205, 180, 179);
   --image-bg:rgb(33, 33, 33);
   --text-shadow: 2px 2px 2px rgba(255, 255, 255, .2);
+  --image-shadow: drop-shadow(10px 10px 10px rgba(255,255,255,.35));
   --pry-box-shadow: rgba(255, 255, 255, .24) 0 3px 8px;
-  --sec-box-shadow: rgba(238, 238, 229, 0.05) 0px 4px 16px, rgba(238, 238, 229, 0.05) 0px 8px 32px;
   --bg-color: rgb(23, 0, 0);
 }
 
@@ -74,6 +75,10 @@ body {
   margin-bottom: 2rem;
 }
 
+img {
+  filter: var(--image-shadow);
+}
+
 a {
   text-decoration: none;
   border: none;
@@ -90,17 +95,17 @@ a {
 
 .btn {
   width: 20rem;
-  height: 6rem;
+  height: 5rem;
   background-color: var(--sec-color);
   color: var(--white-color);
   border-radius: 4rem;
-  box-shadow: 0px 20px 40px rgba(0,0,0,.1);
+  box-shadow: var(--pry-box-shadow);
   font-size: 2.2rem;
   font-weight: 500;
   font-family: var(--sec-font);
   text-transform: capitalize;
   letter-spacing: .2rem;
-   transition: all .5s;
+  transition: all .5s;
 }
 
 .btn:hover {
@@ -147,7 +152,7 @@ footer {
   }
 
   .btn {
-    width: 15rem;
+    width: 18rem;
     height: 5rem;
     font-size: 1.8rem;
   }
