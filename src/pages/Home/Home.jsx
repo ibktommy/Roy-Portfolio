@@ -12,11 +12,11 @@ const Home = () => {
 					<span>Abdulrazzaq Anjorin </span>
 					is a Product Design expert who has a high value for promotion of
 					information architecture and product development processes which
-					includes:
+					includes:{" "}
 					<em>
 						<b>
-							'Identifying Problems, Analyzing Information and Proferring
-							Solutions to ssues that Enhances User Experience'
+							"Identifying Problems, Analyzing Information and Proferring
+							Solutions to ssues that Enhances User Experience"
 						</b>
 					</em>
 					<br /> I specialize in shaping brands and defining product’s user
