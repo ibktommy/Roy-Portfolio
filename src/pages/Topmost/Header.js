@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <section className="topmost">
+    <>
       <header className="project-header">
         Topmost Wears is business that sells luxurious, quality clothing and clothing accessories to all locations in Nigeria.
         I overtook the task of redesigning their web platform and helping to solve problems faced by its users.
@@ -10,7 +10,8 @@ const Header = () => {
 
       <div className="header-details flex">
         <div className="header-details_role">
-          <h4>Product Designer</h4>
+          <h4>My Role</h4>
+          <p>Product Designer</p>
           <p>Webflow Developer</p>
         </div>
         <div className="header-details_duration">
@@ -22,7 +23,7 @@ const Header = () => {
           <p>Responsive Website</p>
         </div>
       </div>
-    </section>
+    </>
   )
 }
 

@@ -4,9 +4,9 @@ import Header from "./Header";
 
 const Topmost = () => {
 	return (
-		<>
+		<section className="topmost">
 			<Header />
-		</>
+		</section>
 	);
 };
 
