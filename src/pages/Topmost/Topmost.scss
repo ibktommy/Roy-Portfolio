@@ -12,14 +12,72 @@
   &-statement {
     margin-bottom: 3rem;
     ul li {
-      margin: 1.5rem 0;
+      margin: 1.5rem 0 0 2rem;
     }
   }
 
   &-goals {
     margin-bottom: 3rem;
     ul li {
-      
+      margin: 1.5rem 0 0 2rem;
+    }
+  }
+
+  &-users-personas {
+    margin-bottom: 3rem;
+
+    &_card {
+      justify-content: space-between;
+      gap: 1.5rem;
+      align-items: center;
+
+      &-content {
+        flex-basis: 50%;
+        border: .2rem solid var(--box-color);
+        height: 45rem;
+        gap: 3rem;
+
+        &_top {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 2rem;
+
+          img {
+            width: 30rem;
+            filter: none;
+          }
+
+          &-texts {
+            gap: 1rem;
+
+            p span:nth-of-type(1) {
+              font-size: 1.8rem;
+              font-weight: 700;
+            }
+            p span:nth-of-type(2) {
+              font-size: 1.5rem;
+              font-weight: 400;
+            }
+          }
+        }
+
+        &_bottom {
+          padding: 0 2rem;
+          p {
+            font-size: 1.8rem;
+            text-align: center;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  &-wireframe-img {
+    margin-top: 3rem;
+    img {
+      width: 40rem;
     }
   }
 }

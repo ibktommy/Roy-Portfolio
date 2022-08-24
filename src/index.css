@@ -20,6 +20,7 @@ html {
   --dark-color: rgb(52, 52, 52);
   --white-color: rgb(255, 255, 255);
   --text-dark: rgb(50, 75, 76);
+  --box-color: rgb(217, 217, 217);
   --image-bg:rgb(217, 217, 217);
   --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
   --image-shadow: drop-shadow(10px 10px 10px rgba(0,0,0,.35));
@@ -36,6 +37,7 @@ html {
   --dark-color: rgb(203, 203, 203);
   --white-color: rgb(0,0,0);
   --text-dark: rgb(205, 180, 179);
+  --box-color: rgb(38, 38, 38);
   --image-bg:rgb(33, 33, 33);
   --text-shadow: 2px 2px 2px rgba(255, 255, 255, .2);
   --image-shadow: drop-shadow(10px 10px 10px rgba(255,255,255,.35));

@@ -4,6 +4,8 @@ import Header from "./Header";
 import About from "./About";
 import Statement from "./Statement";
 import Goals from "./Goals";
+import UsersPersonas from "./UsersPersonas";
+import Wireframing from "./Wireframing";
 
 const Topmost = () => {
 	return (
@@ -12,6 +14,8 @@ const Topmost = () => {
 			<About />
 			<Statement />
 			<Goals />
+			<UsersPersonas />
+			<Wireframing />
 		</section>
 	);
 };

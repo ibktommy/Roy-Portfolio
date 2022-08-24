@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
       <header className="project-header">
-        Topmost Wears is business that sells luxurious, quality clothing and clothing accessories to all locations in Nigeria.
+        Topmost Wears is a business that sells luxurious, quality clothing and clothing accessories to all locations in Nigeria.
         I overtook the task of redesigning their web platform and helping to solve problems faced by its users.
       </header>
 

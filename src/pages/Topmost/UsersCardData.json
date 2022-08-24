@@ -1,0 +1,19 @@
+[
+	{
+		"id": 1,
+		"name": "Oluwatobiloba Frank",
+		"job": "Project Manager",
+		"location": "Lagos",
+		"review": "I need a platform the can allow me browse for clothing materials of my choice whilst at work. I will like it to be fast, easy and offer delivery service to my doorstep.",
+		"image": "./images/Topmost/userOne.png"
+	},
+
+	{
+		"id": 2,
+		"name": "Idowu Basit",
+		"job": "Finance Officer",
+		"location": "Lagos",
+		"review": "My choice is to be able to access different brands and place purchases order from the comfort of my phone.",
+		"image": "./images/Topmost/userTwo.png"
+	}
+]
