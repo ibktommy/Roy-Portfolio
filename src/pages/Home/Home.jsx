@@ -11,9 +11,14 @@ const Home = () => {
 				<p>
 					<span>Abdulrazzaq Anjorin </span>
 					is a Product Design expert who has a high value for promotion of
-					information architecture and product development processes whichwhich
-					includes: 'Identifying Problems, Analyzing Information and Proferring
-					Solutions to ssues that Enhances User Experience'.
+					information architecture and product development processes which
+					includes:
+					<em>
+						<b>
+							'Identifying Problems, Analyzing Information and Proferring
+							Solutions to ssues that Enhances User Experience'
+						</b>
+					</em>
 					<br /> I specialize in shaping brands and defining product’s user
 					experience.
 				</p>
