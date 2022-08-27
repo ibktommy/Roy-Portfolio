@@ -1,3 +1,9 @@
 .isave {
-  
+  .header-details {
+    justify-content: space-between;
+
+    &_right {
+      width: 50rem;
+    }
+  }
 }
