@@ -40,4 +40,25 @@
       align-items: flex-start;
     }
   }
+
+  &-visual {
+    &_card {
+      h5 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        font-style: normal;
+        margin-bottom: 1.8rem;
+      }
+
+      &-texts {
+        p {
+          margin-bottom: .6rem;
+        }
+      }
+
+      &-img {
+        margin: 4rem 0;
+      }
+    }
+  }
 }
