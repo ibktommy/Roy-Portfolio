@@ -20,6 +20,7 @@ const Isave = () => {
 			<Background />
 			<Statement />
 			<UserFlow />
+			<Wireframe />
 		</section>
 	);
 }
