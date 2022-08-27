@@ -47,6 +47,11 @@
   }
 
   &-visual {
+    margin-bottom: 4rem;
+    .image-container {
+      gap: 5rem;
+      align-items: flex-start;
+    }
     &_card {
       h5 {
         font-size: 1.6rem;
