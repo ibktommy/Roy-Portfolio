@@ -5,6 +5,7 @@
 
     &_right {
       width: 45rem;
+
       li {
         margin-bottom: .5rem;
       }
@@ -20,6 +21,10 @@
 
     ol li {
       margin-left: 2.5rem;
+
+      p {
+        font-size: 1.2rem;
+      }
     }
   }
 

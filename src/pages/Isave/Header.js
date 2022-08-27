@@ -21,13 +21,23 @@ const Header = () => {
 
         <div className="header-details_right">
           <h4>Impact</h4>
-          <p>
             <ul>
-              <li>I was part of a 2-man design team that built hight functional mobile applications that led to the 12% increase in profit margin for the entity.</li>
-              <li>Designed components, similar patterns and CTA's which reduced abandonment rate by 30%.</li>
-              <li>High conversion rate for Isave.</li>
+              <li>
+                <p>
+                I was part of a 2-man design team that built hight functional mobile applications that led to the 12% increase in profit margin for the entity.
+                </p>
+              </li>
+              <li>
+                <p>
+                Designed components, similar patterns and CTA's which reduced abandonment rate by 30%.
+                </p>
+              </li>
+              <li>
+                <p>
+                High conversion rate for Isave.
+                </p>
+              </li>
             </ul>
-          </p>
         </div>
       </div>    
     </>

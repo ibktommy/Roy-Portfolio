@@ -2,8 +2,6 @@ import React from 'react'
 import VisualDesignCard from '../../components/VisualDesignCard'
 import visualDesignData from './VisualDesignData.json'
 
-console.log(visualDesignData)
-
 const VisualDesign = () => {
   return (
     <div className="isave-visual">
