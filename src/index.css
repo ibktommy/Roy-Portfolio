@@ -23,7 +23,7 @@ html {
   --box-color: rgb(217, 217, 217);
   --image-bg:rgb(217, 217, 217);
   --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
-  --image-shadow: drop-shadow(10px 10px 10px rgba(0,0,0,.35));
+  --image-shadow: drop-shadow(2px 2px 15px rgba(0,0,0,.35));
   --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
   --bg-color: rgb(232, 255, 255);
   --pry-font: 'League Spartan', sans-serif;
@@ -40,7 +40,7 @@ html {
   --box-color: rgb(38, 38, 38);
   --image-bg:rgb(33, 33, 33);
   --text-shadow: 2px 2px 2px rgba(255, 255, 255, .2);
-  --image-shadow: drop-shadow(10px 10px 10px rgba(255,255,255,.35));
+  --image-shadow: drop-shadow(2px 2px 15px rgba(255,255,255,.35));
   --pry-box-shadow: rgba(255, 255, 255, .24) 0 3px 8px;
   --bg-color: rgb(23, 0, 0);
 }
