@@ -22,6 +22,8 @@ const Isave = () => {
 			<UserFlow />
 			<Wireframe />
 			<VisualDesign />
+			<DesignSystem />
+			<Color />
 		</section>
 	);
 }

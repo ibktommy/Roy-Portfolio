@@ -71,4 +71,18 @@
       }
     }
   }
+
+  &-design {
+    margin-bottom: 4rem;
+  }
+
+  &-color {
+    margin-bottom: 4rem;
+    &_box {
+      width: 40rem;
+      height: 10rem;
+      background: #6764ff;
+      margin-top: 3rem;
+    }
+  }
 }
