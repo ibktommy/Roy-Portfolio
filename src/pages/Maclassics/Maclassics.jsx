@@ -23,6 +23,8 @@ import VisualDelivery from "../../images/maclassis/main/Checkout-DELIVERY.png";
 import VisualPayment from "../../images/maclassis/main/Checkout-PAYMENT.png";
 import VisualCongrats from "../../images/maclassis/main/CONGRATS 1.png";
 import ProfileImg from "../../images/maclassis/main/Profile 1.png";
+import Footer from "../../components/Footer";
+import { Children } from "react/cjs/react.production.min";
 
 const Maclassics = () => {
 	return (
@@ -52,10 +54,12 @@ const Maclassics = () => {
 							There has been a wide use of the maclassic app by customers to
 							place orders. The upload and customize function has made the app a
 							first choice for many users.
-							<br /><br />The use of design system and user flow process reduced
-							production time by the development team. Maclassic cakes have seen
-							a steady increase in sales revenue with the app accounting for
-							over 40% of sales since its launch.
+							<br />
+							<br />
+							The use of design system and user flow process reduced production
+							time by the development team. Maclassic cakes have seen a steady
+							increase in sales revenue with the app accounting for over 40% of
+							sales since its launch.
 						</p>
 					</div>
 				</div>
@@ -266,9 +270,7 @@ const Maclassics = () => {
 				</div>
 			</div>
 
-      <footer>
-        Maclassic Cakes
-      </footer>
+			<Footer children={"maclassics cakes"} />
 		</section>
 	);
 };

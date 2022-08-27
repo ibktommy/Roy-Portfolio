@@ -12,6 +12,7 @@ import {
 	Iconography,
 	UserFlow,
 } from "../Isave";
+import Footer from "../../components/Footer";
 
 const Isave = () => {
   return (
@@ -24,6 +25,9 @@ const Isave = () => {
 			<VisualDesign />
 			<DesignSystem />
 			<Color />
+			<Iconography />
+			<FileComponents />
+			<Footer children={"isave"} />
 		</section>
 	);
 }

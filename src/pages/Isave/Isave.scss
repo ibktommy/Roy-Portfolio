@@ -82,7 +82,26 @@
       width: 40rem;
       height: 10rem;
       background: #6764ff;
+      margin-top: 1rem;
+    }
+  }
+
+  &-icons {
+    margin-bottom: 4rem;
+
+    &_image {
       margin-top: 3rem;
+    }
+  }
+
+  &-components {
+    margin-bottom: 4rem;
+
+    .image-container {
+      margin-top: 3rem;
+      & img {
+        width: 60rem;
+      }
     }
   }
 }
