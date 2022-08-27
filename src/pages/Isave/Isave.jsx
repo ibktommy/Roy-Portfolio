@@ -21,6 +21,7 @@ const Isave = () => {
 			<Statement />
 			<UserFlow />
 			<Wireframe />
+			<VisualDesign />
 		</section>
 	);
 }
