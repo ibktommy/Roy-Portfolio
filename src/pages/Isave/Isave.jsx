@@ -17,6 +17,9 @@ const Isave = () => {
   return (
 		<section className="isave">
 			<Header />
+			<Background />
+			<Statement />
+			<UserFlow />
 		</section>
 	);
 }

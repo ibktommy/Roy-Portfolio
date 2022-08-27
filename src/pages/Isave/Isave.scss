@@ -1,9 +1,25 @@
 .isave {
   .header-details {
     justify-content: space-between;
+    margin-bottom: 4rem;
 
     &_right {
-      width: 50rem;
+      width: 45rem;
+      li {
+        margin-bottom: .5rem;
+      }
+    }
+  }
+
+  &-background {
+    margin-bottom: 4rem;
+  }
+
+  &-statement {
+    margin-bottom:4rem;
+
+    ol li {
+      margin-left: 2.5rem;
     }
   }
 }
