@@ -28,7 +28,6 @@ html {
   --bg-color: rgb(232, 255, 255);
   --pry-font: 'League Spartan', sans-serif;
   --sec-font: 'Montserrat', sans-serif;
-  /* --sec-box-shadow: rgba(17,17,26,0.05) 0px 4px 16px, rgba(17,17,26,0.05) 0px 8px 32px; */
 }
 
 .dark-theme {

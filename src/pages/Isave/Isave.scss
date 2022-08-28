@@ -48,10 +48,12 @@
 
   &-visual {
     margin-bottom: 4rem;
+
     .image-container {
       gap: 5rem;
       align-items: flex-start;
     }
+
     &_card {
       h5 {
         font-size: 1.6rem;
@@ -91,6 +93,10 @@
 
     &_image {
       margin-top: 3rem;
+
+      img {
+        width: 60rem;
+      }
     }
   }
 
@@ -99,8 +105,132 @@
 
     .image-container {
       margin-top: 3rem;
-      & img {
+
+      img {
         width: 60rem;
+      }
+    }
+  }
+}
+
+/* MEDIA QUERY  */
+@media (max-width: 1300px) {
+  .isave {
+    &-visual {
+      .image-container {
+        img {
+          width: 20rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .isave {
+    &-wireframe {
+      margin-bottom: 4rem;
+      .image-container {
+        img {
+          width: 15rem;
+        }
+      }
+    }
+
+    &-visual {
+      .image-container {
+        img {
+          width: 15rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .isave {
+    .header-details {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 4rem;
+
+      &_right {
+        width: 40rem;
+
+        li {
+          margin-bottom: .5rem;
+        }
+      }
+    }
+
+    &-wireframe {
+      .image-container {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 20rem;
+        }
+      }
+    }
+
+    &-visual {
+      .image-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &-color {
+      &_box {
+        width: 20rem;
+        height: 6rem;
+      }
+    }
+
+    &-icons {
+      img {
+        width: 35rem;
+      }
+    }
+
+    &-components {
+      .image-container {
+        img {
+          width: 40rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .isave {
+    &-visual {
+      &_card {
+        h5 {
+          font-size: 1.4rem;
+          font-weight: 500;
+        }
+
+        &-img {
+          img {
+            width: 20rem;
+          }
+        }
+      }
+    }
+
+    &-icons {
+      img {
+        width: 25rem;
+      }
+    }
+
+    &-components {
+      .image-container {
+        img {
+          width: 25rem;
+        }
       }
     }
   }
