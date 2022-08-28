@@ -151,14 +151,10 @@
     .header-details {
       flex-direction: column;
       align-items: flex-start;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
 
       &_right {
         width: 40rem;
-
-        li {
-          margin-bottom: .5rem;
-        }
       }
     }
 
@@ -205,6 +201,12 @@
 
 @media (max-width: 500px) {
   .isave {
+    .header-details {
+      &_right {
+        width: 85vw;
+      }
+    }
+
     &-visual {
       &_card {
         h5 {
