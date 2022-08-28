@@ -1,0 +1,14 @@
+.mace {
+  .header-details {
+    justify-content: space-between;
+    margin-bottom: 4rem;
+
+    &_right {
+      width: 45rem;
+
+      li {
+        margin-bottom: .5rem;
+      }
+    }
+  }
+}
