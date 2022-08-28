@@ -3,8 +3,6 @@ import VisualDesignCard from '../../components/VisualDesignCard'
 import VisualHomeImage from '../../images/mace/main/main-home.png'
 import maceData from './VisualDesignData.json'
 
-console.log(maceData)
-
 const VisualDesign = () => {
   return (
     <div className="mace-visual">

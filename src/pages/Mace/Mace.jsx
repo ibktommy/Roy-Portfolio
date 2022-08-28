@@ -25,6 +25,7 @@ const Mace = () => {
 			<DesignSystem />
 			<Color />
 			<VisualDesign />
+			<Footer children={"mace"} />
 		</section>
 	);
 };

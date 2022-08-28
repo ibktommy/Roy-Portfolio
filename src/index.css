@@ -21,7 +21,7 @@ html {
   --white-color: rgb(255, 255, 255);
   --text-dark: rgb(50, 75, 76);
   --box-color: rgb(217, 217, 217);
-  --image-bg:rgb(217, 217, 217);
+  --image-bg:rgb(241, 241, 241);
   --text-shadow: 2px 2px 2px rgba(0,0,0,.2);
   --image-shadow: drop-shadow(2px 2px 15px rgba(0,0,0,.35));
   --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
