@@ -17,6 +17,9 @@ const Mace = () => {
 	return (
 		<section className="mace">
 			<Header />
+			<About />
+			<Statement />
+			{/* <Goals /> */}
 		</section>
 	);
 };
