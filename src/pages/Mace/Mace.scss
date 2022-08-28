@@ -25,6 +25,7 @@
     margin-bottom: 4rem;
 
     ul li {
+      font-size: 1.4rem;
       margin-left: 2rem;
     }
   }
@@ -88,8 +89,142 @@
   &-visual {
     &_image {
       img {
-        width: 80vw;
+        width: 70vw;
         margin: 2rem 0;
+      }
+    }
+
+    .isave-visual_card:nth-of-type(3) {
+      .isave-visual_card-img {
+        justify-content: space-between;
+
+        img {
+          width: 40rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .mace {
+    &-wireframe {
+      .image-container {
+        img {
+          width: 20vw;
+        }
+      }
+    }
+
+    &-visual {
+      .isave-visual_card:nth-of-type(3) {
+        .isave-visual_card-img {
+          img {
+            width: 30rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .mace {
+    &-wireframe {
+      .image-container {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+
+        img {
+          width: 30rem;
+        }
+      }
+    }
+    &-visual {
+      .isave-visual_card:nth-of-type(3) {
+        .isave-visual_card-img {
+          flex-direction: column;
+          gap: 3rem;
+          img {
+            width: 30rem;
+          }
+        }
+      }
+
+      .isave-visual_card:nth-of-type(4) {
+        .isave-visual_card-img {
+          img {
+            width: 30rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .mace {
+    .header-details {
+      flex-direction: column;
+
+      &_right {
+        width: 100vw;
+      }
+    }
+
+    &-goals {
+      ul li {
+        font-size: 1.1rem;
+      }
+    }
+
+    &-design {
+      .image-container {
+        flex-direction: column;
+        gap: 5rem;
+      }
+    }
+
+    &-color {
+      &_content {
+        flex-direction: column;
+      }
+
+      &_content-box {
+        width: 30rem;
+        height: 7rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .mace {
+    &-wireframe {
+      .image-container {
+        img {
+          width: 22rem;
+          margin-left: 0;
+        }
+      }
+    }
+    &-visual {
+      .isave-visual_card:nth-of-type(3) {
+        .isave-visual_card-img {
+          flex-direction: column;
+          gap: 3rem;
+          img {
+            width: 22rem;
+          }
+        }
+      }
+
+      .isave-visual_card:nth-of-type(4) {
+        .isave-visual_card-img {
+          img {
+            width: 22rem;
+          }
+        }
       }
     }
   }
