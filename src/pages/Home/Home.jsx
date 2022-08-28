@@ -18,8 +18,8 @@ const Home = () => {
 							"Identifying Problems, Analyzing Information and Proferring
 							Solutions to ssues that Enhances User Experience"
 						</b>
-					</em>
-					<br /> I specialize in shaping brands and defining product’s user
+					</em>{" "}
+					{"  "}I specialize in shaping brands and defining product’s user
 					experience.
 				</p>
 				<Link to="/" className="resume">
