@@ -7,7 +7,8 @@
 				"textOne": "The total amount of money the user has inside the Isave network including any possible interests can be seen to provide quick information to users on their funds.",
 				"textTwo": "Other Call To Actions like the ‘Deposit Funds’, ‘Create Savings’, and ‘Lock Funds’ are the primary and secondary buttons which is easliy accessible to our users. It provides the user with quick decision implementation which to a great extent improves the user experience."
 			}
-		]
+		],
+		"image": null
 	},
 	{
 		"id": 2,
@@ -17,7 +18,11 @@
 				"textOne": "Two of the users savings plan can be featured on the home screen to provide close monitoring for them. The title, current amount and targets can be seen on the card’s UI display. Again in an effort to provide good experience for Isave app users. This UI feature enables the users to select their favourite savings plan to appear on the home screen. It can be edited at any time."
 			}
 		],
-		"image": "./images/isave/main/projectImg.png"
+		"image": [
+			{
+				"imageOne": "./images/isave/main/projectImg.png"
+			}
+		]
 	},
 	{
 		"id": 3,
@@ -26,7 +31,8 @@
 			{
 				"textOne": "The cards help to show if the targeted amount has been met by including a verification blue tick to display quickly to users that they have achieved their goals in that savings card. During our interview with some of the target users, they showed favouritism for the card and blue tick system to be very informative for experience."
 			}
-		]
+		],
+		"image": null
 	},
 	{
 		"id": 4,
@@ -36,7 +42,11 @@
 				"textOne": "Searches can be made by typing in the title, target balance or narration of the preferred cards. A second icon serves as a secondary CTA to create new savings plan above the customized card UI."
 			}
 		],
-		"image": "./images/isave/main/savingsOne.png"
+		"image": [
+			{
+				"imageOne": "./images/isave/main/savingsOne.png"
+			}
+		]
 	},
 	{
 		"id": 5,
@@ -48,7 +58,11 @@
 				"textThree": "Three primary CTA’s are included in the powerful UI to ease the decisions implementation of our users. It included buttons for transfer of funds as required by the company to enable moving of funds from one card to the other or consiladtion of cards if wanted by users. Equally included is the withdrawal and invest call to actions."
 			}
 		],
-		"image": "./images/isave/main/savingsCardOne.png"
+		"image": [
+			{
+				"imageOne": "./images/isave/main/savingsCardOne.png"
+			}
+		]
 	},
 	{
 		"id": 6,
@@ -60,6 +74,7 @@
 				"textThree": "<b>Invest:</b> The last screen allows the user to choose maybe to invest directly from funds in the selected card or deposit new funds into the card for investment.",
 				"textFour": "A success page then appears to confirm the investmet. All designed with familiar patterns on the design system to maximize user experience."
 			}
-		]
+		],
+		"image": null
 	}
 ]

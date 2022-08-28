@@ -24,6 +24,7 @@ const Mace = () => {
 			<Wireframe />
 			<DesignSystem />
 			<Color />
+			<VisualDesign />
 		</section>
 	);
 };

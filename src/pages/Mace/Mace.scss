@@ -80,8 +80,16 @@
       width: 40rem;
       height: 10rem;
       background: #00C2FF;
-;
       margin-top: 1rem;
+    }
+  }
+
+  &-visual {
+    &_image {
+      img {
+        width: 80vw;
+        margin: 2rem 0;
+      }
     }
   }
 }
