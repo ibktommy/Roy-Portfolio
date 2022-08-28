@@ -19,7 +19,8 @@ const Mace = () => {
 			<Header />
 			<About />
 			<Statement />
-			{/* <Goals /> */}
+			<Goals />
+			<UserFlow />
 		</section>
 	);
 };
