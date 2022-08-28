@@ -23,6 +23,7 @@ const Mace = () => {
 			<UserFlow />
 			<Wireframe />
 			<DesignSystem />
+			<Color />
 		</section>
 	);
 };

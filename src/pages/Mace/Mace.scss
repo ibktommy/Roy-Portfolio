@@ -53,6 +53,8 @@
   }
 
   &-design {
+    margin-bottom: 4rem;
+
     .image-container {
       gap: 15rem;
 
@@ -64,6 +66,22 @@
         flex-direction: column;
         gap: 3rem;
       }
+    }
+  }
+
+  &-color {
+    margin-bottom: 4rem;
+
+    &_content {
+      gap: 2rem;
+    }
+
+    &_content-box {
+      width: 40rem;
+      height: 10rem;
+      background: #00C2FF;
+;
+      margin-top: 1rem;
     }
   }
 }
