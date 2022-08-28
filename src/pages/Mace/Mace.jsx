@@ -22,6 +22,7 @@ const Mace = () => {
 			<Goals />
 			<UserFlow />
 			<Wireframe />
+			<DesignSystem />
 		</section>
 	);
 };

@@ -40,15 +40,29 @@
 
   &-wireframe {
     margin-bottom: 4rem;
-    
+
     .image-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
       row-gap: 5rem;
 
       img {
         width: 35rem;
+      }
+    }
+  }
+
+  &-design {
+    .image-container {
+      gap: 15rem;
+
+      img {
+        width: 25rem;
+      }
+
+      .right {
+        flex-direction: column;
+        gap: 3rem;
       }
     }
   }
