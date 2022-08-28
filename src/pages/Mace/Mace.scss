@@ -15,9 +15,11 @@
   &-about {
     margin-bottom: 4rem;
   }
+
   &-statement {
     margin-bottom: 4rem;
   }
+
   &-goals {
     margin-bottom: 4rem;
 
@@ -25,6 +27,7 @@
       margin-left: 2rem;
     }
   }
+
   &-userflow {
     margin-bottom: 4rem;
 
@@ -32,6 +35,21 @@
       width: 70vw;
       margin: 2rem 0;
       object-fit: cover;
+    }
+  }
+
+  &-wireframe {
+    margin-bottom: 4rem;
+    
+    .image-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 5rem;
+
+      img {
+        width: 35rem;
+      }
     }
   }
 }

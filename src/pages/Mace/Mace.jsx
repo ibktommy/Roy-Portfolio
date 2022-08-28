@@ -21,6 +21,7 @@ const Mace = () => {
 			<Statement />
 			<Goals />
 			<UserFlow />
+			<Wireframe />
 		</section>
 	);
 };
