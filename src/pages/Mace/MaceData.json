@@ -1,0 +1,40 @@
+[
+	{
+		"id": 1,
+		"heading": "All improved system of searching",
+		"text": [
+			{
+				"textOne": "Search icon on the Mace app has been place in the bottom navigation to ease searches across the application’s UI.",
+				"textTwo": "The search page when clicked on is designed to display by default the categories or types of furnitures available. This is done as users can in a matter of seconds select their choice of furnitures and fittings."
+			}
+		],
+    "image": "./images/mace/main/grouped.png"
+	},
+	{
+		"id": 2,
+		"heading": "For better user experience the app does not mandate registration before it is opened, users can access the products from start up but will have to register when checking out from the cart",
+		"text": [
+			{
+				"textOne": "This initiative was taken because the app is new and the brand is pushing into new markets where its brand is relatively unknown. Registration may be too much of a constraint for many new users, so the mandatory details are left to allow users add items to cart, add preferred products to wishlist, feel the tone of the brand and its products.",
+        "textTwo": "Users are then required to fill in their neccessary details on the checkout page."
+			}
+		],
+		"images": [
+      {
+        "imageOne": "./images/mace/main/Product.png",
+        "imageTwo": "./images/mace/main/Cart.png",
+        "imageThree": "./images/mace/main/Login.png"
+      }
+    ]
+	},
+	{
+		"id": 3,
+		"heading": "Fast, easy checkout process",
+		"text": [
+			{
+				"textOne": "Payment has never been made simple with the new single page checkout system, user details enetered during registration are auto populated into the checkout page. All the user has to do is use the CTA to ‘Confirm Payment’ or use the edit to customize any of the details such as; card, address and coupon codes."
+			}
+		],
+		"image": "./images/mace/main/Checkout.png"
+	}
+]
