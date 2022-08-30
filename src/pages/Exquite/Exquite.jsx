@@ -16,6 +16,8 @@ const Exquite = () => {
 		<section className="exquite">
 			<Header />
 			<About />
+			<Statement />
+			<Goals />
 			<Footer children={"exquite autos"} />
 		</section>
 	);

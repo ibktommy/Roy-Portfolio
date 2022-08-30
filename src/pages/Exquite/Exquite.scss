@@ -16,4 +16,17 @@
   &-about {
     margin-bottom: 4rem;
   }
+
+  &-statement {
+    margin-bottom: 4rem;
+  }
+
+  &-goals {
+    margin-bottom: 4rem;
+
+    ul li {
+      font-size: 1.4rem;
+      margin-left: 2rem;
+    }
+  }
 }
