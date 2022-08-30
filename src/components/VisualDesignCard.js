@@ -1,12 +1,10 @@
 import React from 'react'
 
 const VisualDesignCard = ({ heading, text, image }) => {
-  // Destructure values from "text-object"
-  // console.log(text)
 
   return (
     <div className="isave-visual_card">
-      <h5>{heading}</h5>
+      {heading && <h5>{heading}</h5>}
 
       {text.map((textItem, index) => {
         const { textOne, textTwo, textThree, textFour } = textItem
@@ -22,13 +20,17 @@ const VisualDesignCard = ({ heading, text, image }) => {
       })}
 
       {(image !== null) && image.map((imageItem, index) => {
-        const { imageOne, imageTwo, imageThree } = imageItem
+        const { imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven } = imageItem
 
         return (
           <div className="isave-visual_card-img flex" key={index}>
             <img src={imageOne} alt="visual_image" />
             {imageTwo && <img src={imageTwo} alt="visual_image" />}
             {imageThree && <img src={imageThree} alt="visual_image" />}
+            {imageFour && <img src={imageFour} alt="visual_image" />}
+            {imageFive && <img src={imageFive} alt="visual_image" />}
+            {imageSix && <img src={imageSix} alt="visual_image" />}
+            {imageSeven && <img src={imageSeven} alt="visual_image" />}
           </div>
         )
       })}

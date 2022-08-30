@@ -19,6 +19,8 @@ const Exquite = () => {
 			<Statement />
 			<Goals />
 			<UserFlow />
+			<Wireframe />
+			<VisualDesign />
 			<Footer children={"exquite autos"} />
 		</section>
 	);

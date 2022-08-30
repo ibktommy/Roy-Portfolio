@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"heading": "Conveniency for the user was a top priority, this called a catchy UI on the home screen that needs to be well arranged to enable a good experience for our users.",
+		"text": [
+			{
+				"textOne": "To achieve this level of efficiency a structure was employed to show promotional messages in a large bos at the top followed by discount offers, the available car brands in a slider and categories. <br /> During our research we found out a certain percentage of people rent cars for special/specific events, which means certain types of cars not just brands are essential to them.  A user needing to book for a wedding most probably will need a limousine and a family trip will need a jeep or pickup truck. That is why our design included car categories as one of the main features on the home UI to display all available type of cars the company has to offer.",
+				"textTwo": "On the product pages large card types have been favoured over small cards used in most ecommerce applications because, vehicles are to an extent visual products. Based on our research most people become attracted to cars because of its looks and brand regardless of its level of sophistication.",
+				"textThree": "A large card allows users to have a very good view of the vehicle, see its beautiful designs and color."
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/exqui/main/homeMockup.png",
+				"imageTwo": "./images/exqui/main/dealsMockup.png",
+				"imageThree": "./images/exqui/main/pickupMockup.png",
+				"imageFour": "./images/exqui/main/dealsMockup.png"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"heading": "Checkout & Bookings",
+		"text": [
+			{
+				"textOne": "<b>Well detailed, concise product page.</b>",
+				"textTwo": "The objective of the application is to enable the company have its vehicles booked by anyone who comes there to rent a car. Reducing the stress on the user is important. Cars have a lot of details that needs to be gone over before its choosen as the best fit. To allow for quick, easy user assessment of the vehicle details a simple UI interface was designed to accomodate all relevant information in a concise manner. The user can swipe to view other images of the said vehicle. This allows for quick user experience and decision making."
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/exqui/main/productMockup.png"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"heading": null,
+		"text": [
+			{
+				"textOne": "Three step checkout page is used it incudes: <br /> <ul><li>Client information including upload of driving license and a map to confirm delivery address </li><li>The expected rent date and due date </li><li>The payment summary.</li></ul>"
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/exqui/main/bookingMockup.png",
+				"imageTwo": "./images/exqui/main/mapMockup.png",
+				"imageThree": "./images/exqui/main/dateMockup.png",
+				"imageFour": "./images/exqui/main/cardMockup.png",
+				"imageFive": "./images/exqui/main/successfulMockup.png",
+				"imageSix": "./images/exqui/main/profileMockup.png",
+				"imageSeven": "./images/exqui/main/rentsMockup.png"
+			}
+		]
+	}
+]
