@@ -137,7 +137,7 @@ h5 {
 }
 
 p {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-size: 1.6rem;
   text-align: justify;
   line-height: 1.4;

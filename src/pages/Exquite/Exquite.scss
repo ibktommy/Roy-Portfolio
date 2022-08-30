@@ -1,3 +1,19 @@
-.exquisite {
-  
+.exquite {
+  .header-details {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+
+    &_right {
+      width: 45rem;
+
+      li {
+        margin-bottom: .5rem;
+      }
+    }
+  }
+
+  &-about {
+    margin-bottom: 4rem;
+  }
 }

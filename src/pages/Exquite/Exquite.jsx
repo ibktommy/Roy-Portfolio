@@ -15,6 +15,7 @@ const Exquite = () => {
 	return (
 		<section className="exquite">
 			<Header />
+			<About />
 			<Footer children={"exquite autos"} />
 		</section>
 	);
