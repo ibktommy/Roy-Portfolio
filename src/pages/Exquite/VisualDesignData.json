@@ -14,7 +14,7 @@
 				"imageOne": "./images/exqui/main/homeMockup.png",
 				"imageTwo": "./images/exqui/main/dealsMockup.png",
 				"imageThree": "./images/exqui/main/pickupMockup.png",
-				"imageFour": "./images/exqui/main/dealsMockup.png"
+				"imageFour": "./images/exqui/main/detailsMockup.png"
 			}
 		]
 	},
@@ -43,13 +43,13 @@
 		],
 		"image": [
 			{
-				"imageOne": "./images/exqui/main/bookingMockup.png",
-				"imageTwo": "./images/exqui/main/mapMockup.png",
-				"imageThree": "./images/exqui/main/dateMockup.png",
-				"imageFour": "./images/exqui/main/cardMockup.png",
-				"imageFive": "./images/exqui/main/successfulMockup.png",
-				"imageSix": "./images/exqui/main/profileMockup.png",
-				"imageSeven": "./images/exqui/main/rentsMockup.png"
+				"imageOne": "./images/exqui/main/profileMockup.png",
+				"imageTwo": "./images/exqui/main/rentsMockup.png",
+				"imageThree": "./images/exqui/main/bookingMockup.png",
+				"imageFour": "./images/exqui/main/mapMockup.png",
+				"imageFive": "./images/exqui/main/dateMockup.png",
+				"imageSix": "./images/exqui/main/cardMockup.png",
+				"imageSeven": "./images/exqui/main/successfulMockup.png"
 			}
 		]
 	}

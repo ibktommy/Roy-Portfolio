@@ -155,7 +155,7 @@
       margin-bottom: 3rem;
 
       &_right {
-        width: 40rem;
+        width: 78vw;
       }
     }
 
@@ -202,12 +202,6 @@
 
 @media (max-width: 500px) {
   .isave {
-    .header-details {
-      &_right {
-        width: 85vw;
-      }
-    }
-
     &-visual {
       &_card {
         h5 {

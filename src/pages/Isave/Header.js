@@ -24,7 +24,7 @@ const Header = () => {
             <ul>
               <li>
                 <p>
-                I was part of a 2-man design team that built hight functional mobile applications that led to the 12% increase in profit margin for the entity.
+                I was part of a 2-man design team that built high functional mobile applications that led to the 12% increase in profit margin for the entity.
                 </p>
               </li>
               <li>
