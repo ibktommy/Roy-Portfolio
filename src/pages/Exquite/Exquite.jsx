@@ -18,6 +18,7 @@ const Exquite = () => {
 			<About />
 			<Statement />
 			<Goals />
+			<UserFlow />
 			<Footer children={"exquite autos"} />
 		</section>
 	);

@@ -1,14 +1,15 @@
 import React from 'react'
+import userFlowImgOne from '../../images/exqui/main/Group 26987.png'
+import userFlowImgTwo from '../../images/exqui/main/BookProduct.png'
+import userFlowImgThree from '../../images/exqui/main/findProduct.png'
 
 const UserFlow = () => {
   return (
-    <div className="mace-userflow">
-      <h4>User Flow Map</h4>
-      <p>
-        User flow map of the Mace app was designed with a flat sitemap system, the process is kept simple for easy use and better experience
-      </p>
-      <div className="mace-userflow_img flex">
-        <img src={userFlowImg} alt="userflow" />
+    <div className="exquite-userflow">
+      <div className="exquite-userflow_img row-flex">
+        <img src={userFlowImgOne} alt="userflow" />
+        <img src={userFlowImgTwo} alt="userflow" />
+        <img src={userFlowImgThree} alt="userflow" />
       </div>
     </div>
   )
