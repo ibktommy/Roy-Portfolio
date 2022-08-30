@@ -38,7 +38,7 @@
 		"heading": null,
 		"text": [
 			{
-				"textOne": "Three step checkout page is used it incudes: <br /> <ul><li>Client information including upload of driving license and a map to confirm delivery address </li><li>The expected rent date and due date </li><li>The payment summary.</li></ul>"
+				"textOne": "<b>Three step checkout page is used it incudes:</b> <br /> <ol><li>Client information including upload of driving license and a map to confirm delivery address </li><li>The expected rent date and due date </li><li>The payment summary.</li></ol>"
 			}
 		],
 		"image": [

@@ -49,7 +49,37 @@
       row-gap: 2rem;
 
       img {
-        width: 35rem;
+        width: 28rem;
+      }
+    }
+  }
+
+  &-visual {
+    .isave-visual_card:nth-of-type(1) {
+      .isave-visual_card-img {
+        gap: 2rem;
+        img {
+          width: 28rem;
+        }
+      }
+    }
+
+    .isave-visual_card:nth-of-type(3) {
+      .isave-visual_card-texts {
+        margin-bottom: 5rem;
+        p ol li {
+          margin-left: 2.5rem;
+        }
+      }
+
+      .isave-visual_card-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+        img {
+          width: 28%;
+        }
       }
     }
   }
