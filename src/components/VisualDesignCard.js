@@ -20,7 +20,7 @@ const VisualDesignCard = ({ heading, text, image }) => {
       })}
 
       {(image !== null) && image.map((imageItem, index) => {
-        const { imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven } = imageItem
+        const { imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight } = imageItem
 
         return (
           <div className="isave-visual_card-img flex" key={index}>
@@ -31,6 +31,7 @@ const VisualDesignCard = ({ heading, text, image }) => {
             {imageFive && <img src={imageFive} alt="visual_image" />}
             {imageSix && <img src={imageSix} alt="visual_image" />}
             {imageSeven && <img src={imageSeven} alt="visual_image" />}
+            {imageEight && <img src={imageSeven} alt="visual_image" />}
           </div>
         )
       })}

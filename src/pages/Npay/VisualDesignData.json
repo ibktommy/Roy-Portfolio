@@ -1,0 +1,63 @@
+[
+	{
+		"id": 1,
+		"heading": "I have designed a detailed chart which shows the tax payment details for users.",
+		"text": [
+			{
+				"textOne": "The initial design did not have the chart but as part of the effort to keep users informed first hand about their tax payment history, owings and details the payment chart was included to provide detailed information to users without having to use search box in the transaction history page. ",
+				"textTwo": "The chart also features a filter like system which can be used to select any transaction year."
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/Npay/main/before.png",
+				"imageTwo": "./images/Npay/main/after.png"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"heading": "As part of an effort to solve problem no.3 identified in the user research a news page has been designed on the home screen",
+		"text": [
+			{
+				"textOne": "Recent news page contains all latest information from government and news outlets about public payments. The headlines can be read or users can choose to read the full details by tapping on the news. It also <b>contains information on time it was released to form a hierarchcal system</b> of relevance to the page."
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/Npay/main/news.png"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"heading": "For easy usage, clarifications and confirmation of details and other customer support for better experience. An icon has been included in the bottom nav named ‘help’ ",
+		"text": [
+			{
+				"textOne": "Users can access customer support at a single click on any page by using the icon has a CTA"
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/Npay/main/bottomNav.png"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"heading": null,
+		"text": [],
+		"image": [
+			{
+				"imageOne": "./images/Npay/main/bill.png",
+				"imageTwo": "./images/Npay/main/card.png",
+				"imageThree": "./images/Npay/main/cardSelect.png",
+				"imageFour": "./images/Npay/main/paymentDone.png",
+				"imageFive": "./images/Npay/main/chart.png",
+				"imageSix": "./images/Npay/main/transaction.png",
+				"imageSeven": "./images/Npay/main/news.png",
+				"imageEight": "./images/Npay/main/profile.png"
+			}
+		]
+	}
+]
