@@ -12,6 +12,7 @@ import {
 	VisualDesign,
 	Wireframe,
 } from "../Npay";
+import Footer from "../../components/Footer";
 
 const Npay = () => {
 	return (
@@ -25,6 +26,7 @@ const Npay = () => {
 			<Wireframe />
 			<Color />
 			<VisualDesign />
+			<Footer children={"Npay"} />
 		</section>
 	);
 };

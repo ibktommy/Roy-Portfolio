@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-      <header>
+      <header className='project-header'>
         N-PAY is a fintech app I designed for the Federal Inland Revenue Service (FIRS) of the federal republic of Nigeria to provide a platform where citizens can pay taxes and other bills meant for the government.
       </header>
 
