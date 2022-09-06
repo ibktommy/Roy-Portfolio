@@ -31,7 +31,7 @@ const VisualDesignCard = ({ heading, text, image }) => {
             {imageFive && <img src={imageFive} alt="visual_image" />}
             {imageSix && <img src={imageSix} alt="visual_image" />}
             {imageSeven && <img src={imageSeven} alt="visual_image" />}
-            {imageEight && <img src={imageSeven} alt="visual_image" />}
+            {imageEight && <img src={imageEight} alt="visual_image" />}
           </div>
         )
       })}

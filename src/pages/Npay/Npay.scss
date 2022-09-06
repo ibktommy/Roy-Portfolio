@@ -5,7 +5,7 @@
     margin-bottom: 5rem;
   }
 
-  &-about {
+  &-background {
     margin-bottom: 4rem;
   }
 
@@ -14,6 +14,11 @@
 
     ol {
       margin-left: 2rem;
+
+      li {
+        font-size: 1.3rem;
+        margin-bottom: .2rem;
+      }
     }
   }
 
@@ -85,19 +90,20 @@
         width: 30vw;
       }
 
-      &::before {
-        content: "Primary";
+      &::before,
+      &::after {
         position: absolute;
         bottom: -50%;
-        left: 1rem;
         font-size: 2rem;
+      }
+
+      &::before {
+        content: "Primary";
+        left: 1rem;
       }
       &::after {
         content: "Secondary";
-        position: absolute;
-        bottom: -50%;
         right: 1rem;
-        font-size: 2rem;
       }
     }
   }
@@ -109,9 +115,140 @@
       .isave-visual_card-img {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        place-items: center;
         row-gap: 1.5rem;
         img {
           width: 20vw;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .npay {
+    &-design {
+
+      &_persona {      
+        &-left,
+        &-right {
+          flex-basis: 30vw;
+        }
+      }
+    }
+
+    &-wireframe {
+      .image-container {
+        img {
+          width: 20vw;
+        }
+      }
+    }
+
+    &-visual {
+      .isave-visual_card:nth-of-type(1),
+      .isave-visual_card:nth-of-type(2),
+      .isave-visual_card:nth-of-type(3) {
+
+        .isave-visual_card-img {
+          img {
+            width: 30vw;
+          }
+        }
+      }
+
+      .isave-visual_card:nth-of-type(4) {
+        .isave-visual_card-img {
+          grid-template-columns: repeat(3, 1fr);
+
+          img {
+            width: 25vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .npay {
+    .header-details {
+      flex-direction: column;
+    }
+
+    &-userflow {
+      & img {
+        width: 85vw;
+      }
+    }
+
+    &-design {
+      &_persona {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        
+        &-left,
+        &-right {
+          width: 80vw;
+        }
+      }
+    }
+
+    &-wireframe {
+      margin-bottom: 4rem;
+
+      .image-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 4rem;
+        place-items: center;
+
+        img {
+          width: 55vw;
+        }
+      }
+    }
+
+    &-color {
+      &_box {
+        img {
+          width: 50vw;
+        }
+
+        &::before,
+        &::after {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &-visual {
+      .isave-visual_card:nth-of-type(1),
+      .isave-visual_card:nth-of-type(2) {
+
+        .isave-visual_card-img {
+          img {
+            width: 45vw;
+          }
+        }
+      }
+
+      .isave-visual_card:nth-of-type(3) {
+        .isave-visual_card-img {
+          img {
+            width: 70vw;
+          }
+        }
+      }
+
+      .isave-visual_card:nth-of-type(4) {
+        .isave-visual_card-img {
+          grid-template-columns: repeat(2, 1fr);
+
+          img {
+            width: 45vw;
+          }
         }
       }
     }
