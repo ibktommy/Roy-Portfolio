@@ -2,29 +2,29 @@
   .header-details {
     align-items: flex-start;
     justify-content: space-between;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 
   &-about {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 
   &-statement {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     ul li {
       margin: 1.5rem 0 0 2rem;
     }
   }
 
   &-goals {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     ul li {
       margin: 1.5rem 0 0 2rem;
     }
   }
 
   &-users-personas {
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 
     &_card {
       justify-content: space-between;
@@ -74,10 +74,13 @@
     }
   }
 
-  &-wireframe-img {
-    margin-top: 3rem;
-    img {
-      width: 40rem;
+  &-wireframe {
+    margin-bottom: 4rem;
+    &-img {
+      margin-top: 3rem;
+      img {
+        width: 40rem;
+      }
     }
   }
 }

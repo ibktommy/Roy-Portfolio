@@ -6,6 +6,7 @@ import Statement from "./Statement";
 import Goals from "./Goals";
 import UsersPersonas from "./UsersPersonas";
 import Wireframing from "./Wireframing";
+import VirtualDesign from "./VirtualDesign";
 
 const Topmost = () => {
 	return (
@@ -16,6 +17,7 @@ const Topmost = () => {
 			<Goals />
 			<UsersPersonas />
 			<Wireframing />
+			<VirtualDesign />
 		</section>
 	);
 };
