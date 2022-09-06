@@ -23,6 +23,7 @@ const Npay = () => {
 			<Design />
 			<UserFlow />
 			<Wireframe />
+			<Color />
 		</section>
 	);
 };

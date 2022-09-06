@@ -72,4 +72,33 @@
       }
     }
   }
+
+  &-color {
+    margin-bottom: 4rem;
+
+    &_box {
+      align-self: center;
+      margin: 2rem 0;
+      position: relative;
+
+      img {
+        width: 30vw;
+      }
+
+      &::before {
+        content: "Primary";
+        position: absolute;
+        bottom: -50%;
+        left: 1rem;
+        font-size: 2rem;
+      }
+      &::after {
+        content: "Secondary";
+        position: absolute;
+        bottom: -50%;
+        right: 1rem;
+        font-size: 2rem;
+      }
+    }
+  }
 }
