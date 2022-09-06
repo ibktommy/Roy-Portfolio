@@ -1,5 +1,5 @@
 import React from 'react'
-import Wireframe from '../../images/topmost/Home Wireframe.png'
+import Wireframe from '../../images/topmost/main/wireframe.png'
 
 const Wireframing = () => {
   return (
