@@ -58,4 +58,18 @@
       object-fit: cover;
     }
   }
+
+  &-wireframe {
+    margin-bottom: 4rem;
+
+    .image-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 2rem;
+
+      img {
+        width: 28rem;
+      }
+    }
+  }
 }
