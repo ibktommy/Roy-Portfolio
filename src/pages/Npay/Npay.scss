@@ -24,4 +24,28 @@
       margin-bottom: 1.5rem;
     }
   }
+
+  &-design {
+    margin-bottom: 4rem;
+
+    p {
+      margin: 2rem 0;
+      font-size: 1.8rem;
+    }
+
+    &_persona {
+      justify-content: space-between;
+      
+      &-left,
+      &-right {
+        flex-basis: 35vw;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
 }

@@ -20,6 +20,7 @@ const Npay = () => {
 			<Background />
 			<Statement />
 			<Goals />
+			<Design />
 		</section>
 	);
 };
