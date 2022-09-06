@@ -18,6 +18,7 @@ const Npay = () => {
 		<section className="npay">
 			<Header />
 			<Background />
+			<Statement />
 		</section>
 	);
 };
