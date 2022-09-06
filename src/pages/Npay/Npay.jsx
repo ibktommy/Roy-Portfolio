@@ -19,6 +19,7 @@ const Npay = () => {
 			<Header />
 			<Background />
 			<Statement />
+			<Goals />
 		</section>
 	);
 };
