@@ -48,4 +48,14 @@
       }
     }
   }
+
+  &-userflow {
+    margin-bottom: 4rem;
+
+    & img {
+      width: 70vw;
+      margin: 2rem 0;
+      object-fit: cover;
+    }
+  }
 }
