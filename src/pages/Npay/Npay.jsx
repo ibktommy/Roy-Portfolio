@@ -1,4 +1,6 @@
 import React from "react";
+import "./Npay.scss";
+
 import {
 	Header,
 	Background,
@@ -12,7 +14,11 @@ import {
 } from "../Npay";
 
 const Npay = () => {
-	return <div>Npay</div>;
+	return (
+		<section className="npay">
+			<Header />
+		</section>
+	);
 };
 
 export default Npay;
