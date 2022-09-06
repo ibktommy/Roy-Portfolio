@@ -17,6 +17,7 @@ const Npay = () => {
 	return (
 		<section className="npay">
 			<Header />
+			<Background />
 		</section>
 	);
 };
