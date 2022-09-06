@@ -6,6 +6,7 @@ import userFlowImgThree from '../../images/exqui/main/findProduct.png'
 const UserFlow = () => {
   return (
     <div className="exquite-userflow">
+      <h4>User Flow Map</h4>
       <div className="exquite-userflow_img row-flex">
         <img src={userFlowImgOne} alt="userflow" />
         <img src={userFlowImgTwo} alt="userflow" />

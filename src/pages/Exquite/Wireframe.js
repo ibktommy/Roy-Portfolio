@@ -6,7 +6,7 @@ import WireframeRentalsImg from '../../images/exqui/main/rentals.png'
 const Wireframe = () => {
   return (
     <div className="exquite-wireframe">
-      <p>I created wireframes to test the user flows and check possibilities of implementing design UI created in the sketches.</p>
+      <h4>Wireframe</h4>
       <div className="image-container">
         <img src={WireframeHomeImg} alt="wireframe-img" />
         <img src={WireframeBrandImg} alt="wireframe-img" />
