@@ -160,6 +160,9 @@ footer {
   text-shadow: var(--text-shadow);
 }
 
+/* NAVBAR */
+
+
 /* MEDIA QUERY  */
 @media (max-width: 1024px) {
   .container {
