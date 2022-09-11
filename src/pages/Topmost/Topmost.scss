@@ -91,7 +91,6 @@
     }
 
     &_content-column {
-      // align-items: flex-start;
       justify-content: space-between;
       gap: 2rem;
       margin-bottom: 6rem;
@@ -113,6 +112,7 @@
     &_filter-section {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 6rem;
 
       &_text {
         flex-basis: 40%;
@@ -139,6 +139,31 @@
           img {
             width: 45%;
           }
+        }
+      }
+    }
+
+    &_promotion {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      &-text {
+        margin-bottom: 3rem;
+      }
+
+      &-image {
+        display: flex;
+        align-items: flex-start;
+        gap: 5rem;
+
+        img:nth-child(1) {
+          width: 20%;
+        }
+
+        img:nth-child(2) {
+          width: 80%;
+          object-fit: cover;
         }
       }
     }

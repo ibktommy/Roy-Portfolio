@@ -2,6 +2,8 @@ import React from 'react'
 import chatUsImage from '../../images/topmost/main/chatUs.png'
 import FilterImage from '../../images/topmost/main/filter.png'
 import CategoryImage from '../../images/topmost/main/category.png'
+import HomeImage from '../../images/topmost/main/home.png'
+import HeroSliderImage from '../../images/topmost/main/heroSlider.png'
 
 const VirtualDesign = () => {
   return (
@@ -50,6 +52,22 @@ const VirtualDesign = () => {
             <img src={FilterImage} alt="filter-bar" />
             <img src={CategoryImage} alt="category-page" />
           </div>
+        </div>
+      </div>
+
+      <div className="topmost-virtual_promotion">
+        <div className="topmost-virtual_promotion-text">
+          <h5>
+            Promotional Hero slider
+          </h5>
+          <p>
+            Bringing onformation to users is one of the approaches taken in the redesign of Topmost, previously, users on entering the site have no information on maybe there a products with special offers like price deductions or free delivery unless they stumble upon a product with it while shopping.<br />
+            A heroslider that displays promotional text and imagery was designed on the homepage so that users can check out all the latest shopping information with neccessarily searching for them. This is part of the effort to cut down the Bounce rate the website previously has.
+          </p>
+        </div>
+        <div className="topmost-virtual_promotion-image">
+          <img src={HomeImage} alt="home" />
+          <img src={HeroSliderImage} alt="heroSlider" />
         </div>
       </div>
     </div>
