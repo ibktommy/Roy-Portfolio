@@ -429,7 +429,28 @@
     }
 
     &-virtual {
-      
+      &_content-column_image {
+        width: 80vw;
+      }
+
+      &_filter-section_image {
+        flex-basis: 100%;
+        width: 100vw;
+        margin-bottom: 2rem;
+
+        & .image-container {
+          width: 90%;
+          margin: 0 auto;
+
+          img {
+            width: 50%;
+          }
+        }
+      }
+
+      &_filter-section_text ul li {
+        font-size: 1.1rem;
+      }
     }
   }
 }
