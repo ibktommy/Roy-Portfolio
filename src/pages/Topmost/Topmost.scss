@@ -430,7 +430,7 @@
 
     &-virtual {
       &_content-column_image {
-        width: 80vw;
+        width: 70vw;
       }
 
       &_filter-section_image {
@@ -450,6 +450,34 @@
 
       &_filter-section_text ul li {
         font-size: 1.1rem;
+      }
+
+      &_promotion, &_footer {
+        &-image {
+          img:nth-child(1), img:nth-child(2) {
+            width: 80vw;
+          }
+        }
+      }
+
+      &_payment, &_order {
+        &-image {
+          .image-container {
+            img {
+              width: 65vw;
+            }
+          }
+        }
+      }
+
+      &_checkout {
+        &-image {
+          .image-container {
+            img {
+              width: 65vw;
+            }
+          }
+        }
       }
     }
   }
