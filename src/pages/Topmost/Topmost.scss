@@ -143,10 +143,11 @@
       }
     }
 
-    &_promotion {
+    &_promotion, &_footer {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+      margin-bottom: 6rem;
 
       &-text {
         margin-bottom: 3rem;
@@ -166,6 +167,33 @@
           object-fit: cover;
         }
       }
+    }
+
+    &_payment, &_order {
+      display: flex;
+      gap: 2rem;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6rem;
+
+      &-text {
+        flex-basis: 60%;
+        max-width: 70rem;
+      }
+
+      &-image {
+        flex-basis: 40%;
+
+        .image-container {
+          img {
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    &_order {
+      flex-direction: row-reverse;
     }
   }
 }

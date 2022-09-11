@@ -4,6 +4,9 @@ import FilterImage from '../../images/topmost/main/filter.png'
 import CategoryImage from '../../images/topmost/main/category.png'
 import HomeImage from '../../images/topmost/main/home.png'
 import HeroSliderImage from '../../images/topmost/main/heroSlider.png'
+import FooterImage from '../../images/topmost/main/footer.png'
+import ProductImage from '../../images/topmost/main/product.png'
+import GiftOrderImage from '../../images/topmost/main/giftOrder.png'
 
 const VirtualDesign = () => {
   return (
@@ -68,6 +71,57 @@ const VirtualDesign = () => {
         <div className="topmost-virtual_promotion-image">
           <img src={HomeImage} alt="home" />
           <img src={HeroSliderImage} alt="heroSlider" />
+        </div>
+      </div>
+
+      <div className="topmost-virtual_footer">
+        <div className="topmost-virtual_promotion-text">
+          <h5>
+            The old pages lacked a footer, building one for additional value by displaying relevant information for overall usability.
+          </h5>
+          <p>
+            A footer contains the copyright links, privacy policy, cookie policies, social media links and icons among other things such as contact information. <br />
+            Users can easily refer to the footer for return policies, it give a sense of transparency and intuition for the website. Footers increase the user experience and credibility of the site. They refer to it for navigational purposes.
+          </p>
+        </div>
+        <div className="topmost-virtual_promotion-image">
+          <img src={HomeImage} alt="homeImage" />
+          <img src={FooterImage} alt="footerImage" />
+        </div>
+      </div>
+
+      <div className="topmost-virtual_payment">
+        <div className="topmost-virtual_payment-text">
+          <h5>
+            Due to high abandonment rate at the checkout stage, the payment system has been redesigned with a primary and secondary button system.
+          </h5>
+          <p>
+            The product page displays detailed information about the product and all add ons, it is when the user decides if they want the product or not. Previously they can only add the product to cart and keep shopping but now a secondary CTA has been included to prompt the user to immediately buy the product without having to add it to cart. <br />
+            The goal is ensure fast checkout process for Topmost products, the goods can be purchased on the spot and the user will resume shopping after its done.
+          </p>
+        </div>
+        <div className="topmost-virtual_payment-image">
+          <div className="image-container flex">
+            <img src={ProductImage} alt="productImage" />
+          </div>
+        </div>
+      </div>
+
+      <div className="topmost-virtual_order">
+        <div className="topmost-virtual_order-text">
+          <h5>
+            Not all customers are purchasing for themselves or business purposes, some of our users are making orders for loved ones, which means the price tag on the packaging slip won’t be needed.
+          </h5>
+
+          <p>
+            With that in mind, a special checkbox was included in the design system for users to apply if they will like the product to be delivered as a gift. Thereby, the price tag will not be put inside the pacakaging but be replaced by special gift cards. <br />
+            Some users find it judgemental if they present gifts with prices on them, considering that it maybe seen as too low in value or high in value to be considered a show off. This feature will make our plaform a number choice for gift purchases and delivery.
+          </p>
+        </div>
+        <div className="topmost-virtual_order-image">
+          <div className="image-container">
+            <img src={GiftOrderImage} alt="giftOrderImage" />
+          </div>
         </div>
       </div>
     </div>
