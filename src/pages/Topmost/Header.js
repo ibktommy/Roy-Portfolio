@@ -12,7 +12,6 @@ const Header = () => {
         <div className="header-details_role">
           <h4>My Role</h4>
           <p>Product Designer</p>
-          <p>Webflow Developer</p>
         </div>
         <div className="header-details_duration">
           <h4>Duration</h4>

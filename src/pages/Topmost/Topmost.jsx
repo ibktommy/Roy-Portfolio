@@ -7,6 +7,7 @@ import Goals from "./Goals";
 import UsersPersonas from "./UsersPersonas";
 import Wireframing from "./Wireframing";
 import VirtualDesign from "./VirtualDesign";
+import DesignSystem from "./DesignSystem";
 
 const Topmost = () => {
 	return (
@@ -18,6 +19,7 @@ const Topmost = () => {
 			<UsersPersonas />
 			<Wireframing />
 			<VirtualDesign />
+			<DesignSystem />
 		</section>
 	);
 };
