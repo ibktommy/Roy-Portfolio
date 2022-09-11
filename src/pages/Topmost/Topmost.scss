@@ -195,5 +195,25 @@
     &_order {
       flex-direction: row-reverse;
     }
+
+    &_checkout {
+      margin-bottom: 6rem;
+      &-text {
+        margin-bottom: 3rem;
+      }
+
+      &-image {
+        .image-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 3rem;
+
+          img {
+            width: 30%;
+          }
+        }
+      }
+    }
   }
 }

@@ -7,6 +7,9 @@ import HeroSliderImage from '../../images/topmost/main/heroSlider.png'
 import FooterImage from '../../images/topmost/main/footer.png'
 import ProductImage from '../../images/topmost/main/product.png'
 import GiftOrderImage from '../../images/topmost/main/giftOrder.png'
+import CheckOutOneImage from '../../images/topmost/main/checkout-1.png'
+import CheckOutTwoImage from '../../images/topmost/main/checkout-2.png'
+import CheckOutThreeImage from '../../images/topmost/main/checkout-3.png'
 
 const VirtualDesign = () => {
   return (
@@ -121,6 +124,29 @@ const VirtualDesign = () => {
         <div className="topmost-virtual_order-image">
           <div className="image-container">
             <img src={GiftOrderImage} alt="giftOrderImage" />
+          </div>
+        </div>
+      </div>
+
+      <div className="topmost-virtual_checkout">
+        <div className="topmost-virtual_checkout-text">
+          <h5>
+            Analyzing the needed checkout pattern for Topmost being a new online platform I allowed a popular system of allowing users use the platform without having need to sign in.
+          </h5>
+
+          <p>
+            Users can access almost all of the features of the platform, they can even add items to cart, edit the order details. But will not be able to checkout withou signing in. <br />
+            Meanwhile provision has also been made for users to checkout as guests this will allow yhe company not to save their information or save them on the system as registered users. The downside to this is that they will have to always enter their information everytime an order is placed on Topmost.
+            To relief users of the stress of having to checkout as guest or entering their email and creating passwords before checking out from the platform. Social accounts has been introduced so users can sign in immediately with their Google accounts, Facebook and Apple accounts, all by a sinle click.
+            To this end,to stop the abadonement rate during checkout experienced by Topmost on the platform. <br />
+            The range of design solutions put in place to reduce the checkout time is important for the users to have a beautiful experience and continue visiting our site for ecommerce.
+          </p>
+        </div>
+        <div className="topmost-virtual_checkout-image">
+          <div className="image-container">
+            <img src={CheckOutOneImage} alt="checkout-1" />
+            <img src={CheckOutTwoImage} alt="checkout-2" />
+            <img src={CheckOutThreeImage} alt="checkout-3" />
           </div>
         </div>
       </div>
