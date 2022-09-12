@@ -177,12 +177,30 @@ nav .logo a img {
   height: 10rem;
   object-fit: cover;
   filter: none;
+  transition: .5s ease;
 }
 
 nav .links {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+nav .links .contact-page,
+nav .links .projects span {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--sec-color);
+  transform: scale(1);
+  cursor: pointer;
+}
+
+nav .links .contact-page:hover,
+nav .links .projects span:hover {
+  letter-spacing: .1rem;
+  transform: scale(1.1);
+  transition: all .5s ease-out;
 }
 
 .hidden {
@@ -193,16 +211,19 @@ nav .links {
   background: none;
   border: 0;
   width: max-content;
-  gap: .5rem;
+  gap: .8rem;
   padding: .5rem .8rem;
   cursor: pointer;
   color: var(--text-dark);
 }
 
 .toggle-btn i {
-  font-size: 2rem;
-  width: 2rem ;
-  height: 2rem;
+  font-size: 2.5rem;
+}
+
+.toggle-btn span {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
 
 /* MEDIA QUERY  */

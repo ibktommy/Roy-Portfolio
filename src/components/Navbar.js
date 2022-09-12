@@ -1,18 +1,21 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import LogoDark from '../images/logo/AR-black.png'
+import LogoDark from '../images/logo/AR-blue.png'
+import LogoWhite from '../images/logo/AR-white.png'
 
-const Navbar = ({ themeToggleProp }) => {
+const Navbar = ({ themeToggleProp, theme }) => {
   return (
     <nav>
       <div className="logo">
         <Link to='/'>
-          <img src={LogoDark} alt="logo-dark" />
+          {theme === 'light-theme' ? <img src={LogoDark} alt="logo-dark" /> : <img src={LogoWhite} alt="logo-white" />}
         </Link>
       </div>
 
       <div className="links">
-        <Link to='/contact' className='contact-page'>Contact</Link>
+        <Link to='/contact'>
+          <span className='contact-page'>Contact</span>
+        </Link>
 
         <div className="projects">
           <span>Projects</span>
