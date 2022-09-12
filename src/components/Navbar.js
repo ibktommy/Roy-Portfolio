@@ -29,6 +29,7 @@ const Navbar = ({ themeToggleProp, theme }) => {
             <Link to='/exquite' className='pages-link'>Exquite Autos</Link>
           </div>
         </div>
+        
         <button className="toggle-btn flex" onClick={themeToggleProp}>
           {theme === 'light-theme' ? <i className='fas fa-moon'></i> : <i className='fas fa-sun'></i>}
           {theme === 'dark-theme' ? <span>Dark Mode</span> : <span>Light Mode</span>}
