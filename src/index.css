@@ -178,9 +178,14 @@ nav {
   z-index: 10;
 }
 
-nav .logo a img {
+nav .logo {
   width: 17rem;
   height: 17rem;
+}
+
+nav .logo a img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   filter: none;
   transition: .5s ease;
@@ -328,13 +333,13 @@ nav .links .projects span:hover {
 
 @media (max-width: 768px) {
   .container {
-    margin-top: 8rem;
+    margin-top: 12rem;
   }
 
   /* NAVBAR */
-nav .logo a img {
+nav .logo {
   width: 10rem;
-  height: 10rem;
+  height: 6rem;
 }
 
 nav .links {
@@ -373,7 +378,15 @@ nav .links .projects span {
   }
 }
 
+.btn {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 598px) {
+  .container {
+    margin-top: 10rem;
+  }
+
   .project-header {
     font-size: 1.7rem;
   }
@@ -396,6 +409,10 @@ nav .links .projects span {
   footer {
     font-size: 3rem;
   }
+
+  .btn {
+    margin-bottom: 2rem;
+  }
 }
 
 /* NAVBAR */
@@ -405,7 +422,7 @@ nav .links .projects span {
     height: max-content;
     flex-direction: column;
     width: 100vw;
-    top: 5%;
+    /* top: 6%; */
   }
 
   nav .logo a img {
