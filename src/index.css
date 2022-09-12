@@ -215,6 +215,7 @@ nav .links .projects span:hover {
   padding: .5rem .8rem;
   cursor: pointer;
   color: var(--text-dark);
+  transition: .5s ease;
 }
 
 .toggle-btn i {

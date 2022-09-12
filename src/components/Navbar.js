@@ -30,8 +30,8 @@ const Navbar = ({ themeToggleProp, theme }) => {
           </div>
         </div>
         <button className="toggle-btn flex" onClick={themeToggleProp}>
-          <i className='fas fa-moon'></i>
-          <span>Dark Mode</span>
+          {theme === 'light-theme' ? <i className='fas fa-moon'></i> : <i className='fas fa-sun'></i>}
+          {theme === 'dark-theme' ? <span>Dark Mode</span> : <span>Light Mode</span>}
         </button>
       </div>
     </nav>
