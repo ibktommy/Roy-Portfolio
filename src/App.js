@@ -38,19 +38,20 @@ function App() {
   }
 
   return (
+    <>
+    <Navbar themeToggleProp={themeHandler}/>
     <div className="container">
-      <Navbar />
-      <button className="toggle-btn" onClick={themeHandler}>Dark Mode</button>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/isave' element={<Isave />} />
-          <Route path='/maclassics' element={<Maclassics />} />
-          <Route path='/mace' element={<Mace />} />
-          <Route path='/npay' element={<Npay />} />
-          <Route path='/exquite' element={<Exquite />} />
-          <Route path='/topmost' element={<Topmost />} />
-        </Routes>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/isave' element={<Isave />} />
+        <Route path='/maclassics' element={<Maclassics />} />
+        <Route path='/mace' element={<Mace />} />
+        <Route path='/npay' element={<Npay />} />
+        <Route path='/exquite' element={<Exquite />} />
+        <Route path='/topmost' element={<Topmost />} />
+      </Routes>
     </div>
+    </>
   );
 }
 
