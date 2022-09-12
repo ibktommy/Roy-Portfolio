@@ -2,7 +2,7 @@ import React from 'react'
 import chatUsImage from '../../images/topmost/main/chatUs.png'
 import FilterImage from '../../images/topmost/main/filter.png'
 import CategoryImage from '../../images/topmost/main/category.png'
-import HomeImage from '../../images/topmost/main/home.png'
+// import HomeImage from '../../images/topmost/main/home.png'
 import HeroSliderImage from '../../images/topmost/main/heroSlider.png'
 import FooterImage from '../../images/topmost/main/footer.png'
 import ProductImage from '../../images/topmost/main/product.png'
@@ -72,7 +72,7 @@ const VirtualDesign = () => {
           </p>
         </div>
         <div className="topmost-virtual_promotion-image">
-          <img src={HomeImage} alt="home" />
+          {/* <img src={HomeImage} alt="home" /> */}
           <img src={HeroSliderImage} alt="heroSlider" />
         </div>
       </div>
