@@ -334,7 +334,7 @@ nav .links .projects span:hover {
 
 @media (max-width: 768px) {
   nav {
-    top: 0%;
+    top: 5vh;
   }
 
   .container {
