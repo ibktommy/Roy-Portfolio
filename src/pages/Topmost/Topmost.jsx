@@ -8,6 +8,7 @@ import UsersPersonas from "./UsersPersonas";
 import Wireframing from "./Wireframing";
 import VirtualDesign from "./VirtualDesign";
 import DesignSystem from "./DesignSystem";
+import Footer from "../../components/Footer";
 
 const Topmost = () => {
 	return (
@@ -20,6 +21,7 @@ const Topmost = () => {
 			<Wireframing />
 			<VirtualDesign />
 			<DesignSystem />
+			<Footer children={"topmost"} />
 		</section>
 	);
 };

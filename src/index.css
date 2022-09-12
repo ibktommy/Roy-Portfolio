@@ -67,7 +67,7 @@ body {
 .container {
   max-width: 1536px;
   margin: 12rem auto 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 img {
@@ -150,9 +150,15 @@ footer {
   font-size: 10rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 4rem;
   text-shadow: var(--text-shadow);
 }
+
+footer p {
+    text-transform: none;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
 
 /* NAVBAR */
 nav {
