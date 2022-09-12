@@ -211,6 +211,7 @@ nav .links .projects span:hover {
   font-size: 2rem;
   margin-left: 1rem;
   color: var(--sec-color);
+  cursor: pointer;
 }
 
 .projects-modal {
@@ -218,7 +219,7 @@ nav .links .projects span:hover {
   width: 25rem;
   height: max-content;
   padding: 2rem;
-  top: 29vh;
+  top: 29rem;
   right: 0%;
   transform: translate(-50%, -50%);
   background: var(--bg-color);
@@ -320,8 +321,8 @@ nav .links .projects span:hover {
 }
 
 @media (max-width: 768px) {
-  /* NAVBAR */
 
+  /* NAVBAR */
 nav .logo a img {
   width: 10rem;
   height: 10rem;
@@ -343,7 +344,7 @@ nav .links .projects span {
 }
 
 .projects-modal {
-  top: 25vh;
+  top: 23rem;
   padding: 1rem;
 }
 
@@ -391,7 +392,7 @@ nav .links .projects span {
 /* NAVBAR */
 @media (max-width: 500px) {
   nav {
-    padding: 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;
     height: max-content;
     flex-direction: column;
     width: 100vw;
@@ -400,12 +401,21 @@ nav .links .projects span {
 
   nav .logo a img {
     width: 8rem;
-    height: 5rem;
+    height: 6rem;
   }
 
   nav .links .contact-page,
   nav .links .projects span {
     font-size: 1.4rem;
+  }
+
+  .projects-modal {
+    left: 50%;
+    width: 70vw;
+  }
+
+  .modal-arrow {
+    font-size: 1.3rem;
   }
 
   .toggle-btn i {

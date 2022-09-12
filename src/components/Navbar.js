@@ -25,8 +25,8 @@ const Navbar = ({ themeToggleProp, theme }) => {
           <span className='contact-page'>Contact</span>
         </Link>
 
-        <div className="projects">
-          <span onClick={modalToggleHandler}>Projects</span>
+        <div className="projects" onClick={modalToggleHandler}>
+          <span>Projects</span>
           {!modal ? <i className='fas fa-chevron-down  modal-arrow'></i> : <i className='fas fa-chevron-up modal-arrow'></i>}
 
           {modal ? (
