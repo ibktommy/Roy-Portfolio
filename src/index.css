@@ -100,6 +100,7 @@ a {
   font-family: var(--sec-font);
   text-transform: capitalize;
   letter-spacing: .2rem;
+  margin-bottom: 4rem;
   transition: all .5s;
 }
 
@@ -332,6 +333,10 @@ nav .links .projects span:hover {
 }
 
 @media (max-width: 768px) {
+  nav {
+    top: 0%;
+  }
+
   .container {
     margin-top: 12rem;
   }
@@ -376,10 +381,6 @@ nav .links .projects span {
   .title {
     font-size: 2.4rem;
   }
-}
-
-.btn {
-  margin-bottom: 2rem;
 }
 
 @media (max-width: 598px) {
