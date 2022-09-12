@@ -88,7 +88,7 @@ const VirtualDesign = () => {
           </p>
         </div>
         <div className="topmost-virtual_promotion-image">
-          <img src={HomeImage} alt="homeImage" />
+          {/* <img src={HomeImage} alt="homeImage" /> */}
           <img src={FooterImage} alt="footerImage" />
         </div>
       </div>
