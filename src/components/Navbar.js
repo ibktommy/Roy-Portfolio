@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import LogoDark from '../images/logo/AR-blue.png'
 import LogoWhite from '../images/logo/AR-white.png'
 
 const Navbar = ({ themeToggleProp, theme }) => {
+  // Navbar State
+  const [modal, setModal] = useState(false)
+
+  // Function that monitors state of Modal
+  const modalToggleHandler = () => {
+    setModal(!modal)
+  }
+
   return (
     <nav>
       <div className="logo">
@@ -18,16 +26,19 @@ const Navbar = ({ themeToggleProp, theme }) => {
         </Link>
 
         <div className="projects">
-          <span>Projects</span>
+          <span onClick={modalToggleHandler}>Projects</span>
+          {!modal ? <i className='fas fa-chevron-down  modal-arrow'></i> : <i className='fas fa-chevron-up modal-arrow'></i>}
 
-          <div className="project-modal hidden">
-            <Link to='/topmost' className='pages-link'>Topmost</Link>
-            <Link to='/maclassics' className='pages-link'>Maclassics</Link>
-            <Link to='/isave' className='pages-link'>Isave</Link>
-            <Link to='/mace' className='pages-link'>Mace</Link>
-            <Link to='/npay' className='pages-link'>N-Pay</Link>
-            <Link to='/exquite' className='pages-link'>Exquite Autos</Link>
-          </div>
+          {modal ? (
+            <div className="projects-modal row-flex">
+              <Link to='/topmost' className='pages-link'>Topmost</Link>
+              <Link to='/maclassics' className='pages-link'>Maclassics</Link>
+              <Link to='/isave' className='pages-link'>Isave</Link>
+              <Link to='/mace' className='pages-link'>Mace</Link>
+              <Link to='/npay' className='pages-link'>N-Pay</Link>
+              <Link to='/exquite' className='pages-link'>Exquite Autos</Link>
+            </div>
+          ) : null}
         </div>
         
         <button className="toggle-btn flex" onClick={themeToggleProp}>

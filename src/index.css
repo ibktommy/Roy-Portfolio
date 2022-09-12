@@ -168,7 +168,7 @@ nav {
   align-items: center;
   background: var(--bg-color);
   box-shadow: var(--pry-box-shadow);
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 10;
 }
 
@@ -203,9 +203,46 @@ nav .links .projects span:hover {
   transition: all .5s ease-out;
 }
 
-.hidden {
-  display: none;
+.projects {
+  position: relative;
 }
+
+.modal-arrow {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: var(--sec-color);
+}
+
+.projects-modal {
+  position: fixed;
+  width: 25rem;
+  height: max-content;
+  padding: 2rem;
+  top: 30vh;
+  right: 0%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-color);
+  box-shadow: var(--pry-box-shadow);
+  z-index: 10;
+}
+
+.projects-modal .pages-link {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: var(--sec-color);
+}
+
+.projects-modal .pages-link:hover {
+  letter-spacing: .1rem;
+  transform: scale(1.05);
+  transition: .5s ease;
+}
+
+/* .hidden {
+  display: none;
+} */
 
 .toggle-btn {
   background: none;
