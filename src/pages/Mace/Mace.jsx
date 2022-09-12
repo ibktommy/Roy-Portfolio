@@ -1,16 +1,14 @@
 import React from "react";
 import './Mace.scss'
-import {
-	Header,
-	About,
-	Color,
-	DesignSystem,
-	Statement,
-	VisualDesign,
-	Wireframe,
-	Goals,
-	UserFlow,
-} from "../Mace";
+import Header from './Header'
+import About from './About'
+import Color from './Color'
+import DesignSystem from './DesignSystem'
+import Statement from './Statement'
+import VisualDesign from './VisualDesign'
+import Wireframe from './Wireframe'
+import Goals from './Goals'
+import UserFlow from './UserFlow'
 import Footer from "../../components/Footer";
 
 const Mace = () => {

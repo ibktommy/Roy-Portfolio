@@ -1,17 +1,15 @@
 import React from 'react'
 import "./Isave.scss";
-import {
-	Header,
-	Background,
-	Color,
-	DesignSystem,
-	FileComponents,
-	Statement,
-	VisualDesign,
-	Wireframe,
-	Iconography,
-	UserFlow,
-} from "../Isave";
+import Header from './Header'
+import Background from './Background'
+import Color from './Color'
+import DesignSystem from './DesignSystem'
+import FileComponents from './FileComponents'
+import Statement from './Statement'
+import VisualDesign from './VisualDesign'
+import Wireframe from './Wireframe'
+import Iconography from './Iconography'
+import UserFlow from './UserFlow'
 import Footer from "../../components/Footer";
 
 const Isave = () => {

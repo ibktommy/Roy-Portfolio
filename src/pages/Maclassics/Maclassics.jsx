@@ -24,7 +24,6 @@ import VisualPayment from "../../images/maclassis/main/Checkout-PAYMENT.png";
 import VisualCongrats from "../../images/maclassis/main/CONGRATS 1.png";
 import ProfileImg from "../../images/maclassis/main/Profile 1.png";
 import Footer from "../../components/Footer";
-import { Children } from "react/cjs/react.production.min";
 
 const Maclassics = () => {
 	return (
