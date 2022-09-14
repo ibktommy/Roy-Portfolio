@@ -109,13 +109,8 @@ header {
   }
 
   .project-summary {
-    flex-direction: column-reverse;
     gap: 10rem;
     margin-bottom: 5rem;
-
-    &.reverse {
-      flex-direction: column-reverse;
-    }
 
     &-image {
       width: 60vw;
@@ -158,7 +153,12 @@ header {
   }
 
   .project-summary {
+    flex-direction: column-reverse;
     gap: 0;
+
+    &.reverse {
+      flex-direction: column-reverse;
+    }
 
     &-image {
       margin-top: 5rem;
