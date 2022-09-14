@@ -17,7 +17,7 @@ const Navbar = ({ themeToggleProp, theme }) => {
   const scrollEvent = () => {
     window.addEventListener('scroll', (e) => {
 
-      if (window.scrollY >= 20) {
+      if (window.scrollY >= 22) {
         setNavShadow(true)
       } else {
         setNavShadow(false)
@@ -97,10 +97,6 @@ const Navbar = ({ themeToggleProp, theme }) => {
           </li>
         </ul>
       </div>
-
-      {/* <div className="arrow">
-        <i className="fas fa-chevron-double-up"></i>
-      </div> */}
     </>
   )
 }
