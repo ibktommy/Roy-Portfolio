@@ -45,6 +45,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: var(--sec-font);
   line-height: 1.2;
   color: var(--dark-color);
@@ -207,8 +208,8 @@ nav .links .contact span {
   letter-spacing: .1rem;
 }
 
-nav .links .projects span:hover,
-nav .links .contact span:hover {
+nav .links .projects:hover,
+nav .links .contact:hover {
   transform: scale(1.1);
   transition: all .5s ease;
 }
@@ -217,6 +218,7 @@ nav .links .projects i {
   font-size: 1.6rem;
   margin-left: .5rem;
   color: var(--sec-color);
+  cursor: pointer;
 }
 
 nav .toggle-btn {
@@ -273,7 +275,16 @@ nav .toggle-btn .theme {
 }
 
 .modal ul li a:hover {
+  transform: scale(1.1);
+  transition: transform .5s ease;
+}
 
+.arrow {
+  position: absolute;
+  bottom: -20rem;
+  right: 5rem;
+  z-index: 100;
+  border: .1rem solid #000;
 }
 
 /* MEDIA QUERY  */

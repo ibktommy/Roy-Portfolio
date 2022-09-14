@@ -34,6 +34,10 @@ const Navbar = ({ themeToggleProp, theme }) => {
   // Function to Make Modal Hidden
   const hideModal = () => {
     setModal(!modal)
+    window.scrollTo({
+      top: 0,
+      // behavior: 'smooth'
+    })
   }
 
 
@@ -93,6 +97,10 @@ const Navbar = ({ themeToggleProp, theme }) => {
           </li>
         </ul>
       </div>
+
+      {/* <div className="arrow">
+        <i className="fas fa-chevron-double-up"></i>
+      </div> */}
     </>
   )
 }
