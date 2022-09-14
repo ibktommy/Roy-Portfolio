@@ -11,7 +11,7 @@ import Footer from "../../components/Footer";
 
 const Exquite = () => {
 	return (
-		<section className="exquite">
+		<section className="exquite animate__animated animate__fadeInUp">
 			<Header />
 			<About />
 			<Statement />

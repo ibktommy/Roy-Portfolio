@@ -14,7 +14,7 @@ import Footer from "../../components/Footer";
 
 const Isave = () => {
   return (
-		<section className="isave">
+		<section className="isave animate__animated animate__fadeInUp">
 			<Header />
 			<Background />
 			<Statement />

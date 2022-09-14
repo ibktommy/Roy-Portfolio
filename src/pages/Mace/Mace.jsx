@@ -13,7 +13,7 @@ import Footer from "../../components/Footer";
 
 const Mace = () => {
 	return (
-		<section className="mace">
+		<section className="mace animate__animated animate__fadeInUp">
 			<Header />
 			<About />
 			<Statement />

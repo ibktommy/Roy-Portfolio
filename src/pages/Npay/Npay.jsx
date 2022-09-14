@@ -13,7 +13,7 @@ import Footer from "../../components/Footer";
 
 const Npay = () => {
 	return (
-		<section className="npay">
+		<section className="npay animate__animated animate__fadeInUp">
 			<Header />
 			<Background />
 			<Statement />

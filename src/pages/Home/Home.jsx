@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 
 const Home = () => {
 	return (
-		<>
+		<section className="animate__animated animate__fadeInUp">
 			<header className="row-flex">
 				<p>
 					<span>Abdulrazzaq Anjorin </span>
@@ -35,7 +35,7 @@ const Home = () => {
 			})}
 
 			<Footer children={"home page"} />
-		</>
+		</section>
 	);
 };
 

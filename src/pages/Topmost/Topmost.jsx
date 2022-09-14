@@ -12,7 +12,7 @@ import Footer from "../../components/Footer";
 
 const Topmost = () => {
 	return (
-		<section className="topmost">
+		<section className="topmost animate__animated animate__fadeInUp">
 			<Header />
 			<About />
 			<Statement />

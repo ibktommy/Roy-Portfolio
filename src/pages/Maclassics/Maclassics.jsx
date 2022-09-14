@@ -27,7 +27,7 @@ import Footer from "../../components/Footer";
 
 const Maclassics = () => {
 	return (
-		<section className="maclassics">
+		<section className="maclassics animate__animated animate__fadeInUp">
 			<header className="project-header">
 				Maclassics is a cake and confectionaries company that produces and sells
 				cakes to customers. I created the brand design and shaped user
