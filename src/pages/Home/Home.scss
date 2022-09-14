@@ -21,7 +21,7 @@ header {
     display: inline-block;
     font-size: 2rem;
     letter-spacing: .3rem;
-    color: var(--dark-color);
+    color: var(--pry-color);
     font-weight: 500;
     position: relative;
     width: 100%;
@@ -29,7 +29,7 @@ header {
     text-decoration: underline;
 
     &:hover {
-      color: var(--pry-color);
+      color: var(--sec-color);
       transition: all .5s ease;
     }
   }
