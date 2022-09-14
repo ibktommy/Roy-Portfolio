@@ -351,7 +351,6 @@ nav .toggle-btn .theme {
 @media (max-width: 768px) {
   /* NAVBAR */
   .modal {
-    top: 12.2rem;
     width: 45vw;
   }
 
@@ -415,7 +414,7 @@ nav .toggle-btn .theme {
   }
 
   nav .links {
-    margin-top: .5rem;
+    margin-top: 1rem;
   }
 
   nav .links .projects span,
@@ -428,11 +427,12 @@ nav .toggle-btn .theme {
   }
 
   .modal {
-    top: 12.2rem;
+    top: 12.7rem;
     width: 60vw;
   }
 
   .modal ul li {
+    gap: 2rem;
     align-items: flex-start;
   }
 }
