@@ -180,8 +180,8 @@ nav.shadow {
 }
 
 nav .logo {
-  width: 8rem;
-  height: auto;
+  width: 13rem;
+  height: 5rem;
 }
 
 nav .logo img{
@@ -193,8 +193,40 @@ nav .logo img{
 
 nav .links {
   display: flex;
-  gap: 1rem;
+  column-gap: 1.2rem;
   align-items: center;
+}
+
+nav .links .projects span,
+nav .links .contact span {
+  display: inline-block;
+  font-size: 1.8rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--sec-color);
+  letter-spacing: .1rem;
+}
+
+nav .links .projects span:hover,
+nav .links .contact span:hover {
+  transform: scale(1.1);
+  transition: all .5s ease;
+}
+
+nav .toggle-btn {
+  padding: .5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav .toggle-btn .theme {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  line-height: 1;
+  color: var(--dark-color);
+  font-size: 1.8rem;
 }
 
 /* MEDIA QUERY  */

@@ -16,7 +16,6 @@ const Navbar = ({ themeToggleProp, theme }) => {
   // Scroll Event Function
   const scrollEvent = () => {
     window.addEventListener('scroll', (e) => {
-      console.log(window.scrollY)
 
       if (window.scrollY >= 20) {
         setNavShadow(true)
@@ -45,8 +44,8 @@ const Navbar = ({ themeToggleProp, theme }) => {
       </Link>
 
       <div className="links">
-        <Link to='/contact'>
-          <span className='contact-page'>Contact</span>
+        <Link to='/contact' className='contact'>
+          <span>Contact</span>
         </Link>
 
         <div className="projects" onClick={modalToggleHandler}>
