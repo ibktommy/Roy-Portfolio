@@ -281,12 +281,23 @@ nav .toggle-btn .theme {
   transition: transform .5s ease;
 }
 
-.arrow {
+.scroll-up {
+  display: inline-block;
   position: absolute;
-  bottom: -20rem;
-  right: 5rem;
+  bottom: 0%;
+  right: 3%;
   z-index: 100;
-  border: .1rem solid #000;
+  margin-bottom: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 10rem;
+  background: var(--sec-color);
+  border: none;
+}
+
+.scroll-up i {
+  color: #fff;
+  font-size: 2.5rem;
 }
 
 /* MEDIA QUERY  */

@@ -8,6 +8,7 @@ import Npay from './pages/Npay/Npay'
 import Exquite from './pages/Exquite/Exquite'
 import Mace from './pages/Mace/Mace'
 import Navbar from './components/Navbar';
+import ScrollUp from './components/ScrollUp';
 
 // Function to Set Theme in LocalStorage
 function localStorageTheme() {
@@ -23,6 +24,7 @@ function localStorageTheme() {
 function App() {
   // Setting App State
   const [theme, setTheme] = useState(localStorageTheme())
+  const [pageBottom, setPageBottom] = useState(false)
 
   useEffect(() => {
     document.documentElement.className = theme
@@ -36,6 +38,23 @@ function App() {
       setTheme('light-theme')
     }
   }
+
+  // Scroll Event Function
+  const scrollEvent = () => {
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 30) {
+      setPageBottom(true)
+      console.log('We are at the bottom')
+    } else {
+      setPageBottom(false)
+    }
+    return
+  }
+
+  // Setting up useEffect-Hook to run the scroll-event-functionality
+  useEffect(() => {
+    window.addEventListener('scroll', scrollEvent)
+    return () => window.removeEventListener('scroll', scrollEvent)
+  }, [])
 
   return (
     <>
@@ -51,6 +70,9 @@ function App() {
         <Route path='/topmost' element={<Topmost />} />
       </Routes>
     </div>
+      {
+        pageBottom && <ScrollUp />
+      }
     </>
   );
 }
