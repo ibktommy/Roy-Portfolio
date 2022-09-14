@@ -31,6 +31,11 @@ const Navbar = ({ themeToggleProp, theme }) => {
     return () => window.removeEventListener('scroll', scrollEvent)
   }, [])
 
+  // Function to Make Modal Hidden
+  const hideModal = () => {
+    setModal(!modal)
+  }
+
 
   return (
     <>
@@ -53,10 +58,10 @@ const Navbar = ({ themeToggleProp, theme }) => {
           <div className="projects" onClick={modalToggleHandler}>
             <span>Projects</span>
             {
-              modal ? (
-                <i className="fas fa-chevron-up"></i>
-              ) : (
+              !modal ? (
                 <i className="fas fa-chevron-down"></i>
+              ) : (
+                <i className="fas fa-chevron-up"></i>
               )
             }
           </div>
@@ -79,11 +84,11 @@ const Navbar = ({ themeToggleProp, theme }) => {
         </div>
       </nav>
 
-      <div className={modal ? 'modal slide' : 'modal'} >
+      <div className={!modal ? 'modal slide' : 'modal'} >
         <ul>
           <li className='row-flex'>
             {HomeData.map(({ id, title, link }) => (
-              <Link to={`/${link}`} key={id}>{title}</Link>
+              <Link to={`/${link}`} key={id} onClick={hideModal}>{title}</Link>
             ))}
           </li>
         </ul>

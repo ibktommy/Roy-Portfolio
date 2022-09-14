@@ -238,20 +238,21 @@ nav .toggle-btn .theme {
 .modal {
   display: inline-block;
   position: fixed;
-  top: 10rem;
-  right: 1%;
+  top: 9.1rem;
+  right: .5rem;
   background: var(--bg-color);
   padding: 2rem;
-  width: 20%;
+  width: 25%;
   box-shadow: var(--pry-box-shadow);
   opacity: 1;
+  transform: scale(1);
   z-index: 100;
-  transition: .3s ease-in;
+  transition: .2s ease;
 }
 
 .modal.slide {
   opacity: 0;
-  top: 7rem;
+  transform: scale(0);
   height: 0;
   visibility: hidden;
   z-index: -1;
@@ -264,6 +265,7 @@ nav .toggle-btn .theme {
   text-transform: uppercase;
   font-style: italic;
   letter-spacing: .1rem;
+  align-items: center;
 }
 
 .modal ul li a {
