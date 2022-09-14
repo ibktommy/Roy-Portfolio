@@ -365,6 +365,13 @@ nav .toggle-btn .theme {
   .title {
     font-size: 2.5rem;
   }
+
+  .btn {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
 
 @media (max-width: 598px) {
