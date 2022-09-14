@@ -151,5 +151,17 @@ header {
     span {
       font-size: 2rem;
     }
+
+    .resume {
+      font-size: 1.4rem;
+    }
+  }
+
+  .project-summary {
+    gap: 0;
+
+    &-image {
+      margin-top: 5rem;
+    }
   }
 }
