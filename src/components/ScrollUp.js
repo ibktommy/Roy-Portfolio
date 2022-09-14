@@ -1,4 +1,5 @@
 import React from 'react'
+import 'animate.css'
 
 const ScrollUp = () => {
   // Function to Scroll Up
