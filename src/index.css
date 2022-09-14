@@ -286,18 +286,24 @@ nav .toggle-btn .theme {
   position: absolute;
   bottom: 0%;
   right: 3%;
-  z-index: 100;
   margin-bottom: 2rem;
   width: 4rem;
   height: 4rem;
   border-radius: 10rem;
-  background: var(--sec-color);
+  background: var(--pry-color);
   border: none;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .scroll-up i {
   color: #fff;
   font-size: 2.5rem;
+}
+
+.scroll-up i:hover {
+  transform: translateY(-2px);
+  transition: all .5s ease;
 }
 
 /* MEDIA QUERY  */
