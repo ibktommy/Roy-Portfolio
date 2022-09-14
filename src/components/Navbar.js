@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import HomeData from '../pages/Home/HomeData.json'
 import LogoDark from '../images/logo/AR-blue.png'
@@ -7,29 +7,42 @@ import LogoWhite from '../images/logo/AR-white.png'
 const Navbar = ({ themeToggleProp, theme }) => {
   // Navbar State
   const [modal, setModal] = useState(false)
+  const [navShadow, setNavShadow] = useState(false)
 
   // Function that monitors state of Modal
   const modalToggleHandler = () => {
     setModal(!modal)
   }
+  // Scroll Event Function
+  const scrollEvent = () => {
+    window.addEventListener('scroll', (e) => {
+      console.log(window.scrollY)
+
+      if (window.scrollY >= 20) {
+        setNavShadow(true)
+      } else {
+        setNavShadow(false)
+      }
+    })
+  }
+
+  // Calling the Scroll Event Using the UseEffect Hook After Render
+  useEffect(() => {
+    scrollEvent()
+    return () => window.removeEventListener('scroll', scrollEvent)
+  }, [])
 
   return (
-    <nav>
-      <div className="logo">
-        <Link to='/'>
+    <nav className={navShadow ? 'shadow' : null}>
+      <Link to='/' className='logo'>
           {
             theme === 'light-theme' ? (
-              <div className="logo">
-                <img src="" alt="logo" className='logo-image' />
-              </div>
+            <img src={LogoDark} alt="logo" />
             ) : (
-              <div className="logo">
-                <img src="" alt="logo" className='logo-image' />
-              </div>
+              <img src={LogoWhite} alt="logo" />
             )
           }
-        </Link>
-      </div>
+      </Link>
 
       <div className="links">
         <Link to='/contact'>
