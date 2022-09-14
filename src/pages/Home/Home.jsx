@@ -17,7 +17,7 @@ const Home = () => {
 					<em>
 						<b>
 							"Identifying Problems, Analyzing Information and Proferring
-							Solutions to ssues that Enhances User Experience".
+							Solutions to issues that Enhances User Experience".
 						</b>
 					</em>{" "}
 					{"  "}I specialize in shaping brands and defining product’s user
