@@ -31,51 +31,64 @@ const Navbar = ({ themeToggleProp, theme }) => {
     return () => window.removeEventListener('scroll', scrollEvent)
   }, [])
 
+
   return (
-    <nav className={navShadow ? 'shadow' : null}>
-      <Link to='/' className='logo'>
+    <>
+      <nav className={navShadow ? 'shadow' : null}>
+        <Link to='/' className='logo'>
           {
             theme === 'light-theme' ? (
-            <img src={LogoDark} alt="logo" />
+              <img src={LogoDark} alt="logo" />
             ) : (
               <img src={LogoWhite} alt="logo" />
             )
           }
-      </Link>
-
-      <div className="links">
-        <Link to='/contact' className='contact'>
-          <span>Contact</span>
         </Link>
 
-        <div className="projects" onClick={modalToggleHandler}>
-          <span>Projects</span>
-          {
-            modal ? (
-              <i className="fas fa chevron-up"></i>
-            ) : (
-              <i className="fas fa chevron-down"></i>
-            )
-          }
-        </div>
+        <div className="links">
+          <Link to='/contact' className='contact'>
+            <span>Contact</span>
+          </Link>
 
-        <button className="toggle-btn flex" onClick={themeToggleProp}>
-          {
-            theme === 'light-theme' ? (
-              <div className="theme">
-                <i className='fas fa-moon'></i>
-                <span>Dark Mode</span>
-              </div>
-            ) : (
-              <div className="theme">
-                <i className='fas fa-sun'></i>
-                <span>Light Mode</span>
-              </div>
-            )
-          }
-        </button>
+          <div className="projects" onClick={modalToggleHandler}>
+            <span>Projects</span>
+            {
+              modal ? (
+                <i className="fas fa-chevron-up"></i>
+              ) : (
+                <i className="fas fa-chevron-down"></i>
+              )
+            }
+          </div>
+
+          <button className="toggle-btn flex" onClick={themeToggleProp}>
+            {
+              theme === 'light-theme' ? (
+                <div className="theme">
+                  <i className='fas fa-moon'></i>
+                  <span>Dark Mode</span>
+                </div>
+              ) : (
+                <div className="theme">
+                  <i className='fas fa-sun'></i>
+                  <span>Light Mode</span>
+                </div>
+              )
+            }
+          </button>
+        </div>
+      </nav>
+
+      <div className={modal ? 'modal slide' : 'modal'} >
+        <ul>
+          <li className='row-flex'>
+            {HomeData.map(({ id, title, link }) => (
+              <Link to={`/${link}`} key={id}>{title}</Link>
+            ))}
+          </li>
+        </ul>
       </div>
-    </nav>
+    </>
   )
 }
 

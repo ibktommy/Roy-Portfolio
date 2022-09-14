@@ -213,6 +213,12 @@ nav .links .contact span:hover {
   transition: all .5s ease;
 }
 
+nav .links .projects i {
+  font-size: 1.6rem;
+  margin-left: .5rem;
+  color: var(--sec-color);
+}
+
 nav .toggle-btn {
   padding: .5rem 1rem;
   border: none;
@@ -227,6 +233,45 @@ nav .toggle-btn .theme {
   line-height: 1;
   color: var(--dark-color);
   font-size: 1.8rem;
+}
+
+.modal {
+  display: inline-block;
+  position: fixed;
+  top: 10rem;
+  right: 1%;
+  background: var(--bg-color);
+  padding: 2rem;
+  width: 20%;
+  box-shadow: var(--pry-box-shadow);
+  opacity: 1;
+  z-index: 100;
+  transition: .3s ease-in;
+}
+
+.modal.slide {
+  opacity: 0;
+  top: 7rem;
+  height: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.modal ul li {
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: .1rem;
+}
+
+.modal ul li a {
+  color: var(--sec-color);
+}
+
+.modal ul li a:hover {
+
 }
 
 /* MEDIA QUERY  */
