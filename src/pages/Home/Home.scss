@@ -19,26 +19,28 @@ header {
   }
 
   .resume {
+    display: inline-block;
     font-size: 2rem;
     letter-spacing: .3rem;
     color: var(--dark-color);
-    align-self: flex-end;
     font-weight: 500;
     position: relative;
+    width: 100%;
+    text-align: end;
+    text-decoration: underline;
 
-    &::before {
-      position: absolute;
-      content: "";
-      bottom: -10%;
-      left: 0;
-      width: 100%;
-      height: .2rem;
-      background-color: var(--dark-color);
-    }
+    // &::before {
+    //   position: absolute;
+    //   content: "";
+    //   bottom: -10%;
+    //   left: 0;
+    //   width: 100%;
+    //   height: .2rem;
+    //   background-color: var(--dark-color);
+    // }
 
     &:hover {
       color: var(--pry-color);
-      transform: scale(1.04) translateY(.2rem);
       transition: all .5s ease;
     }
   }
