@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./Home.scss";
 import homeData from './HomeData.json'
 import HomeCard from '../../components/HomeCard'
+import Footer from "../../components/Footer";
 
 const Home = () => {
 	return (
@@ -32,6 +33,8 @@ const Home = () => {
 			{homeData.map(({ id, ...props }) => {
 				return <HomeCard key={id} {...props} />;
 			})}
+
+			<Footer children={"home page"} />
 		</>
 	);
 };

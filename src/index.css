@@ -436,11 +436,11 @@ nav .toggle-btn .theme {
 
   nav .links .projects span,
   nav .links .contact span {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   nav .toggle-btn .theme {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   }
 
   .modal {
@@ -451,5 +451,15 @@ nav .toggle-btn .theme {
   .modal ul li {
     gap: 2rem;
     align-items: flex-start;
+  }
+
+  .scroll-up {
+    right: 8%;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .scroll-up i {
+    font-size: 1.8rem;
   }
 }
