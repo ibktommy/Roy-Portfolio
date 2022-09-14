@@ -39,7 +39,7 @@ function App() {
 
   return (
     <>
-      <Navbar themeToggleProp={themeHandler} theme={theme} />
+    <Navbar themeToggleProp={themeHandler} theme={theme} />
     <div className="container">
       <Routes>
         <Route path='/' element={<Home />} />
