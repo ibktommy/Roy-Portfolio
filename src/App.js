@@ -44,7 +44,6 @@ function App() {
   const scrollEvent = () => {
     if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 30) {
       setPageBottom(true)
-      // console.log('We are at the bottom')
     } else {
       setPageBottom(false)
     }
