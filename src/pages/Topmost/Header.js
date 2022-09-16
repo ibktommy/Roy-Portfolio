@@ -1,4 +1,5 @@
 import React from 'react'
+import ShowCaseImage from '../../images/topmost/main/showcase.png'
 
 const Header = () => {
   return (
@@ -21,6 +22,10 @@ const Header = () => {
           <h4>Platform</h4>
           <p>Responsive Website</p>
         </div>
+      </div>
+
+      <div className="header-showcase flex">
+        <img src={ShowCaseImage} alt="ShowcaseImage" />
       </div>
     </>
   )
