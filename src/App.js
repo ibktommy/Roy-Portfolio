@@ -57,10 +57,22 @@ function App() {
     return () => window.removeEventListener('scroll', scrollEvent)
   }, [])
 
+  const windowReloaded = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+    console.log('Hello')
+  }
+
+  useEffect(() => {
+    window.addEventListener('load', windowReloaded)
+  }, [window.onload])
+
   return (
     <>
     <Navbar themeToggleProp={themeHandler} theme={theme} />
-    <div className="container">
+      <div className="container">
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/isave' element={<Isave />} />

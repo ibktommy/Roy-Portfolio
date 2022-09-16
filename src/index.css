@@ -111,6 +111,16 @@ a {
   transform: translateY(-.3rem);
 }
 
+section.home,
+section.npay,
+section.maclassics,
+section.topmost,
+section.isave,
+section.exquite,
+section.mace {
+  --animate-duration: 1.5s;
+}
+
 .project-header {
   font-family: var(--sec-font);
   font-size: 4rem;

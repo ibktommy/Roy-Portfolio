@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 
 const Home = () => {
 	return (
-		<section className="animate__animated animate__fadeInUp home">
+		<section className="home animate__animated animate__fadeInUp">
 			<header className="row-flex">
 				<p>
 					<span>Abdulrazzaq Anjorin </span>
@@ -27,13 +27,10 @@ const Home = () => {
 					View my resume
 				</Link>
 			</header>
-
 			<h2 className="title">Work Experience</h2>
-
 			{homeData.map(({ id, ...props }) => {
 				return <HomeCard key={id} {...props} />;
 			})}
-
 			<Footer children={"home page"} />
 		</section>
 	);
