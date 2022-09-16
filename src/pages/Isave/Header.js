@@ -1,4 +1,5 @@
 import React from 'react'
+import ShowcaseImage from '../../images/isave/main/ShowcaseImage.png'
 
 const Header = () => {
   return (
@@ -24,12 +25,12 @@ const Header = () => {
             <ul>
               <li>
                 <p>
-                I was part of a 2-man design team that built high functional mobile applications that led to the 12% increase in profit margin for the entity.
+                I was part of a 2-man design team that built high functional mobile  applications, that led to the over 50% increase in pofit margin for the entity.
                 </p>
               </li>
               <li>
                 <p>
-                Designed components, similar patterns and CTA's which reduced abandonment rate by 30%.
+                The admin panel interface increased the management evaluation and decision making process.
                 </p>
               </li>
               <li>
@@ -39,7 +40,11 @@ const Header = () => {
               </li>
             </ul>
         </div>
-      </div>    
+      </div>
+
+      <div className="header-showcase flex">
+        <img src={ShowcaseImage} alt="ShowcaseImage" />
+      </div>
     </>
   )
 }

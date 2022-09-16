@@ -149,6 +149,14 @@ p {
   margin-bottom: .5rem;
 }
 
+.header-showcase {
+  margin: 10rem 0;
+}
+
+.header-showcase img{
+  width: 50vw;
+}
+
 .image-container {
   height: max-content;
   margin: 2rem 0 5rem 0;
@@ -358,6 +366,14 @@ nav .toggle-btn .theme {
     font-size: 1.3rem;
   }
 
+  .header-showcase {
+    margin: 6rem 0;
+  }
+
+  .header-showcase img{
+    width: 55vw;
+  }
+
   footer {
     font-size: 7rem;
   }
@@ -384,6 +400,8 @@ nav .toggle-btn .theme {
   .modal ul li a {
     font-size: 1.2rem;
   }
+
+  /* END NAVBAR */
   .container {
     margin-top: 0 auto;
   }
@@ -397,6 +415,14 @@ nav .toggle-btn .theme {
     height: 4rem;
     font-size: 1.5rem;
     font-weight: 600;
+  }
+
+  .header-showcase {
+    margin: 5rem 0;
+  }
+
+  .header-showcase img{
+    width: 65vw;
   }
 }
 
@@ -422,6 +448,14 @@ nav .toggle-btn .theme {
 
   p {
     font-size: 1.15rem;
+  }
+
+  .header-showcase {
+    margin: 4rem 0;
+  }
+
+  .header-showcase img{
+    width: 75vw;
   }
 
   footer {
