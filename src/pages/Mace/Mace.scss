@@ -44,12 +44,8 @@
     margin-bottom: 4rem;
 
     .image-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      row-gap: 5rem;
-
       img {
-        width: 35rem;
+        width: 55vw;
       }
     }
   }
@@ -108,14 +104,6 @@
 
 @media (max-width: 1300px) {
   .mace {
-    &-wireframe {
-      .image-container {
-        img {
-          width: 20vw;
-        }
-      }
-    }
-
     &-visual {
       .isave-visual_card:nth-of-type(3) {
         .isave-visual_card-img {
@@ -132,11 +120,8 @@
   .mace {
     &-wireframe {
       .image-container {
-        grid-template-columns: repeat(1, 1fr);
-        place-items: center;
-
         img {
-          width: 30rem;
+          width: 60vw;
         }
       }
     }
@@ -203,8 +188,7 @@
     &-wireframe {
       .image-container {
         img {
-          width: 22rem;
-          margin-left: 0;
+          width: 65vw;
         }
       }
     }
