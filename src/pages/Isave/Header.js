@@ -1,5 +1,5 @@
 import React from 'react'
-import ShowcaseImage from '../../images/isave/main/ShowcaseImage.png'
+import ShowCaseImage from '../../images/isave/main/ShowcaseImage.png'
 
 const Header = () => {
   return (
@@ -43,7 +43,7 @@ const Header = () => {
       </div>
 
       <div className="header-showcase flex">
-        <img src={ShowcaseImage} alt="ShowcaseImage" />
+        <img src={ShowCaseImage} alt="ShowcaseImage" />
       </div>
     </>
   )

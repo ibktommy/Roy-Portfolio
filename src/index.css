@@ -155,6 +155,7 @@ p {
 
 .header-showcase img{
   width: 50vw;
+  filter: none;
 }
 
 .image-container {
