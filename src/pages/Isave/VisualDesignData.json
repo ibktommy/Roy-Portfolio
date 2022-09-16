@@ -76,5 +76,34 @@
 			}
 		],
 		"image": null
+	},
+	{
+		"id": 7,
+		"heading": "The Admin panel  dashboard overview provides a first look analysis of Isave performance",
+		"text": [
+			{
+				"textOne": "Important metrics including the number of users, number of active users using the app, number of users who kepp savings with the company and those who invest with companies provided by ISAVE. Provide analysts with data on the performance of the app. Information displayed colorfully can be used to decide maybe the current strategy employed by the firm is yielding positive result or not.",
+				"textTwo": "Emphasis have been given to charts to display; Revenue, User Savings, User Investments. Options have been included so analysts can compare perfrmance of different periods on the charts and make important reccomendations to management. We added a percentage increase or decrease detail at the bottom of the charts to show the level of improvment or decline for every period displayed on the charts."
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/isave/main/dashboardHome.png"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"heading": "We noticed the efforts admins go through to group certain users in order to make certain decisions so a filter option was added on each detail.",
+		"text": [
+			{
+				"textOne": "Decision makers and management can filter through the thousands of users to view them based on specific charasteristics. "
+			}
+		],
+		"image": [
+			{
+				"imageOne": "./images/isave/main/dashboardUsers.png"
+			}
+		]
 	}
 ]

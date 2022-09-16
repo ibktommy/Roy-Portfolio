@@ -1,10 +1,7 @@
 import React from 'react'
 import VisualDesignCard from '../../components/VisualDesignCard'
 import visualDesignData from './VisualDesignData.json'
-import visualmageOne from '../../images/isave/main/Earn- flow1.png'
-import visualmageTwo from '../../images/isave/main/Earn- flow2.png'
-import visualmageThree from '../../images/isave/main/Earn- flow3.png'
-import visualmageFour from '../../images/isave/main/successful.png'
+import InvestSelection from '../../images/isave/main/investSection.png'
 
 const VisualDesign = () => {
   return (
@@ -17,10 +14,7 @@ const VisualDesign = () => {
       })}
 
       <div className="image-container flex">
-        <img src={visualmageOne} alt="visual-img" />
-        <img src={visualmageTwo} alt="visual-img" />
-        <img src={visualmageThree} alt="visual-img" />
-        <img src={visualmageFour} alt="visual-img" />
+        <img src={InvestSelection} alt="invest-selection" />
       </div>
       
     </div>
