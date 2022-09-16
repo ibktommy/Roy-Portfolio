@@ -68,12 +68,8 @@
     margin-bottom: 4rem;
 
     .image-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      row-gap: 2rem;
-
       img {
-        width: 28rem;
+        width: 65vw;
       }
     }
   }
@@ -140,7 +136,7 @@
     &-wireframe {
       .image-container {
         img {
-          width: 20vw;
+          width: 60vw;
         }
       }
     }
@@ -196,16 +192,9 @@
     }
 
     &-wireframe {
-      margin-bottom: 4rem;
-
       .image-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        row-gap: 4rem;
-        place-items: center;
-
         img {
-          width: 40vw;
+          width: 70vw;
         }
       }
     }
@@ -261,7 +250,7 @@
 
       .image-container {
         img {
-          width: 60vw;
+          width: 75vw;
         }
       }
     }
