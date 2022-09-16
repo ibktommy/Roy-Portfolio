@@ -57,6 +57,7 @@ function App() {
     return () => window.removeEventListener('scroll', scrollEvent)
   }, [])
 
+  // Function that gets called when one  reloads the webapp
   const windowReloaded = () => {
     window.scrollTo({
       top: 0,

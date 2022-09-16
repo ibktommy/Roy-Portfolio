@@ -118,7 +118,7 @@ section.topmost,
 section.isave,
 section.exquite,
 section.mace {
-  --animate-duration: 1.5s;
+  --animate-duration: 1.5;
 }
 
 .project-header {

@@ -36,9 +36,20 @@ const Navbar = ({ themeToggleProp, theme }) => {
     setModal(!modal)
     window.scrollTo({
       top: 0,
-      // behavior: 'smooth'
     })
   }
+
+  // Function to remove Modal whenever any part of the document is clicked
+  const removeModal = (e) => {
+    if (e.target.parentElement.classList[0] !== 'projects') {
+      setModal(false)
+    }
+    return
+  }
+  useEffect(() => {
+    document.body.addEventListener('click', removeModal)
+    return () => window.removeEventListener('click', removeModal)
+  })
 
 
   return (
