@@ -36,7 +36,7 @@
           }
 
           &:focus {
-            outline: .1rem solid var(--pry-color);
+            outline: .2rem solid var(--pry-color);
           }
 
         }
@@ -55,7 +55,7 @@
         }
 
         &:focus {
-          outline: .1rem solid var(--pry-color);
+          outline: .2rem solid var(--pry-color);
         }
       }
 
@@ -76,14 +76,14 @@
     }
 
     &-info {
-      flex: 1;
+      flex: 2;
       background: var(--image-bg);
-      padding: 4rem;
+      padding: 2rem;
       gap: 3rem;
 
       &_card {
         display: flex;
-        gap: 2.5rem;
+        gap: 1.5rem;
         // align-items: center;
 
         i {
@@ -93,14 +93,57 @@
         &-para {
           h5 {
             font-style: normal;
-            font-size: 2.3rem;
+            font-size: 2rem;
             font-weight: 600;
             margin-bottom: .5rem;
           }
 
           p {
-            font-size: 2rem;
+            font-size: 1.6rem;
           }
+        }
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: none;
+    font-size: 1.6rem;
+    text-shadow: var(--text-shadow);
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+    p {
+      font-size: 1.6rem;
+    }
+
+    &-details {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    &-details {
+      .form {
+        padding: 1.2rem;
+
+        &-card {
+          flex-direction: column;
+
+          input {
+            width: 100%;
+          }
+        }
+
+        button {
+          padding: 1rem 0;
+          font-size: 1.8rem;
         }
       }
     }

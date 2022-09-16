@@ -50,6 +50,8 @@ const Contact = () => {
 					</div>
 				</div>
 			</div>
+
+			<p className="footer">&copy; AtomDev et Roy, 2022 &#128526; &#9996;</p>
 		</section>
 	);
 };
