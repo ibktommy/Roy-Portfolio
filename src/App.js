@@ -9,6 +9,7 @@ import Exquite from './pages/Exquite/Exquite'
 import Mace from './pages/Mace/Mace'
 import Navbar from './components/Navbar';
 import ScrollUp from './components/ScrollUp';
+import Contact from './pages/Contact/Contact';
 
 
 // Function to Set Theme in LocalStorage
@@ -81,6 +82,7 @@ function App() {
         <Route path='/npay' element={<Npay />} />
         <Route path='/exquite' element={<Exquite />} />
         <Route path='/topmost' element={<Topmost />} />
+          <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
       {
