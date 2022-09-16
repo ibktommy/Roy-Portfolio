@@ -5,11 +5,7 @@ import UserflowReg from "../../images/maclassis/main/Registration.png";
 import UserflowUpload from "../../images/maclassis/main/Uploading a product.png";
 import UserflowPurchase from "../../images/maclassis/main/Making a Purchase.png";
 import UserflowSitemap from "../../images/maclassis/main/MY sitemap.png";
-import WireframingProduct from "../../images/maclassis/main/Product.png";
-import WireframingWishlist from "../../images/maclassis/main/Wishlist.png";
-import WireframingCart from "../../images/maclassis/main/Cart.png";
-import WireframingCustomize from "../../images/maclassis/main/Customize.png";
-import WireframingHome from "../../images/maclassis/main/Home.png";
+import WireframeGroup from "../../images/maclassis/main/wireframe-group.png";
 import DesignBtnOne from "../../images/maclassis/main/Group 50.png";
 import DesignBtnTwo from "../../images/maclassis/main/Button.png";
 import DesignBtnThree from "../../images/maclassis/main/bottom nav.png";
@@ -17,11 +13,7 @@ import DesignBtnFour from "../../images/maclassis/main/MACLASSICS icon 1.png";
 import ColorBox from "../../images/maclassis/main/Group 14 1.png";
 import VisualGroup from "../../images/maclassis/main/Group 27067.png";
 import VisualHome from "../../images/maclassis/main/HOME 3.png";
-import VisualBag from "../../images/maclassis/main/Bag.png";
-import VisualSummary from "../../images/maclassis/main/Checkout-SUMMARY.png";
-import VisualDelivery from "../../images/maclassis/main/Checkout-DELIVERY.png";
-import VisualPayment from "../../images/maclassis/main/Checkout-PAYMENT.png";
-import VisualCongrats from "../../images/maclassis/main/CONGRATS 1.png";
+import checkOutProcess from "../../images/maclassis/main/checkoutProcess.png";
 import ProfileImg from "../../images/maclassis/main/Profile 1.png";
 import Footer from "../../components/Footer";
 
@@ -130,12 +122,8 @@ const Maclassics = () => {
 					achieveing high fidelity design.
 				</p>
 
-				<div className="image-container">
-					<img src={WireframingProduct} alt="wireframe-product" />
-					<img src={WireframingWishlist} alt="wireframe-wishlist" />
-					<img src={WireframingCart} alt="wireframe-cart" />
-					<img src={WireframingCustomize} alt="wireframe-customize" />
-					<img src={WireframingHome} alt="wireframe-home" />
+				<div className="image-container flex">
+					<img src={WireframeGroup} alt="wireframe" />
 				</div>
 			</div>
 
@@ -244,12 +232,8 @@ const Maclassics = () => {
 						specific time its needed.
 					</p>
 
-					<div className="image-container">
-						<img src={VisualBag} alt="design-img" />
-						<img src={VisualSummary} alt="design-img" />
-						<img src={VisualDelivery} alt="design-img" />
-						<img src={VisualPayment} alt="design-img" />
-						<img src={VisualCongrats} alt="design-img" />
+					<div className="image-container flex">
+						<img src={checkOutProcess} alt="checkOutProcess" />
 					</div>
 				</div>
 			</div>

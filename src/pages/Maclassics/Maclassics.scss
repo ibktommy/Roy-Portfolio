@@ -27,12 +27,8 @@
 
   .gen-details-wireframe {
     .image-container {
-      display: flex;
-      justify-content: space-around;
-      align-items: flex-start;
-
       img {
-        width: 20rem;
+        width: 80vw;
         object-fit: cover;
       }
     }
@@ -67,6 +63,12 @@
       margin-bottom: .8rem;
     }
 
+    & .image-container:first-of-type {
+      img {
+        width: 40vw;
+      }
+    }
+
     &_process {
       ol {
         display: inline-block;
@@ -83,9 +85,9 @@
       }
 
       .image-container {
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: repeat(4, 1fr);
+        img {
+          width: 80vw;
+        }
       }
     }
   }
@@ -102,34 +104,8 @@
 }
 
 // MEDIA QUERY
-@media (max-width: 1300px) {
-  .maclassics {
-    .gen-details-visual {
-      &_process {
-        .image-container {
-          display: grid;
-          gap: 2rem;
-          grid-template-columns: repeat(5, 1fr);
-        }
-
-        img {
-          width: 15vw;
-        }
-      }
-    }
-  }
-}
-
 @media (max-width: 1024px) {
   .maclassics {
-    .gen-details-wireframe {
-      .image-container {
-        img {
-          width: 15rem;
-        }
-      }
-    }
-
     .gen-details-design {
       &-images {
         &_top {
@@ -142,6 +118,14 @@
           img {
             width: 35rem;
           }
+        }
+      }
+    }
+
+    .gen-details-visual {
+      & .image-container:first-of-type {
+        img {
+          width: 60vw;
         }
       }
     }
@@ -170,45 +154,9 @@
       }
     }
 
-    .gen-details-visual {
-      .image-container:first-of-type {
-        img {
-          width: 50rem;
-        }
-      }
-
-      &_process {
-        .image-container:first-of-type {
-          grid-template-columns: repeat(1, 1fr);
-          place-items: center;
-          place-content: center;
-
-          img {
-            width: 35vw;
-            object-fit: cover;
-          }
-        }
-      }
-    }
-
     .gen-details-color {
       img {
         width: 25rem;
-      }
-    }
-
-    .gen-details-wireframe {
-      .image-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 1.5rem;
-        img {
-          width: 35vw;
-
-          &:nth-of-type(1) {
-            margin-left: 2.5rem;
-          }
-        }
       }
     }
 
@@ -229,6 +177,24 @@
               width: 50rem;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .maclassics {
+    .gen-details-visual {
+      & .image-container:first-of-type {
+        img {
+          width: 75vw;
+        }
+      }
+
+      & .image-container:nth-of-type(2) {
+        img {
+          width: 70vw;
         }
       }
     }
@@ -261,18 +227,10 @@
       }
     }
 
-    .gen-details-visual {
-      .image-container:first-of-type {
-        img {
-          width: 70vw;
-        }
-      }
-    }
-
     .gen-details-profile {
     .image-container {
       img {
-        width: 35vw;
+        width: 45vw;
       }
     }
   }
