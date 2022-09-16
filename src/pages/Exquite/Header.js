@@ -1,4 +1,5 @@
 import React from 'react'
+import ShowCaseImage from '../../images/exqui/main/showcase.png'
 
 const Header = () => {
   return (
@@ -46,6 +47,10 @@ const Header = () => {
             </li>
           </ul>
         </div>
+      </div>
+      
+      <div className="header-showcase flex">
+        <img src={ShowCaseImage} alt="ShowcaseImage" />
       </div>
     </>
   )

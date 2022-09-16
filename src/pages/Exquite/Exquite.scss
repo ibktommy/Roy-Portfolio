@@ -44,12 +44,8 @@
     margin-bottom: 4rem;
 
     .image-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      row-gap: 2rem;
-
       img {
-        width: 30rem;
+        width: 65vw;
       }
     }
   }
@@ -97,13 +93,8 @@
   .exquite {
     &-wireframe {
       .image-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        place-items: center;
-        row-gap: 3rem;
-
         img {
-          width: 35vw;
+          width: 70vw;
         }
       }
     }
@@ -123,7 +114,7 @@
     &-wireframe {
       .image-container {
         img {
-          width: 55vw;
+          width: 80vw;
         }
       }
     }
