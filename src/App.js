@@ -57,19 +57,6 @@ function App() {
     return () => window.removeEventListener('scroll', scrollEvent)
   }, [])
 
-  // Reload Functionality To enable the Home Page starts from top of the web page when reloaded
-  function windowReload() {
-    window.scrollTo({
-      top: 0,
-    })
-    console.log('Loaded')
-  }
-
-  useEffect(() => {
-    window.addEventListener('load', windowReload)
-    return () => window.removeEventListener('load', windowReload)
-  }, [])
-
   return (
     <>
     <Navbar themeToggleProp={themeHandler} theme={theme} />
