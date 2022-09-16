@@ -10,6 +10,7 @@ import Mace from './pages/Mace/Mace'
 import Navbar from './components/Navbar';
 import ScrollUp from './components/ScrollUp';
 
+
 // Function to Set Theme in LocalStorage
 function localStorageTheme() {
   let theme = 'light-theme'
@@ -43,7 +44,7 @@ function App() {
   const scrollEvent = () => {
     if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 30) {
       setPageBottom(true)
-      console.log('We are at the bottom')
+      // console.log('We are at the bottom')
     } else {
       setPageBottom(false)
     }
@@ -54,6 +55,19 @@ function App() {
   useEffect(() => {
     window.addEventListener('scroll', scrollEvent)
     return () => window.removeEventListener('scroll', scrollEvent)
+  }, [])
+
+  // Reload Functionality To enable the Home Page starts from top of the web page when reloaded
+  function windowReload() {
+    window.scrollTo({
+      top: 0,
+    })
+    console.log('Loaded')
+  }
+
+  useEffect(() => {
+    window.addEventListener('load', windowReload)
+    return () => window.removeEventListener('load', windowReload)
   }, [])
 
   return (
