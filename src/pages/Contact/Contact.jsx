@@ -22,7 +22,7 @@ const Contact = () => {
 	}
 
 	return (
-		<section className="contact animate__animated animate__fadeInDown">
+		<section className="contact animate__animated animate__zoomIn">
 			<h2 className="title">Contact Me</h2>
 
 			<p className="para">
