@@ -57,6 +57,7 @@
           
           &::placeholder {
             color: var(--text-dark);
+            opacity: .7;
           }
 
           &:focus {
@@ -76,6 +77,7 @@
         
         &::placeholder {
           color: var(--text-dark);
+          opacity: .7;
         }
 
         &:focus {

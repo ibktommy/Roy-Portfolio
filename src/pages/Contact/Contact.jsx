@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.scss";
 import FormImage from "../../images/logo/thanks.gif";
@@ -9,6 +9,12 @@ const formSpreeKey = process.env.REACT_APP_FORMSPREE_KEY;
 const Contact = () => {
 	// Form State
 	const [state, handleSubmit] = useForm(`${formSpreeKey}`);
+
+	const firstNameRef = useRef(null);
+	const lastNameRef = useRef(null);
+	const emailRef = useRef(null);
+	const subjectRef = useRef(null);
+	const textareaRef = useRef(null);
 
 	if (state.succeeded) {
 		return (
@@ -22,8 +28,24 @@ const Contact = () => {
 	}
 
 	const handleSubmitForm = () => {
+		if (
+			firstNameRef.current.value ||
+			lastNameRef.current.value ||
+			emailRef.current.value ||
+			subjectRef.current.value ||
+			textareaRef.current.value === " "
+		) {
+			alert("PLEASE FILL IN ALL FORM FIELDS!");
+			[
+				firstNameRef.current.value,
+				lastNameRef.current.value,
+				emailRef.current.value,
+				subjectRef.current.value,
+				textareaRef.current.value,
+			] = ["", "", "", "", ""];
+		}
 		if (state.errors && state.succeeded === false) {
-			alert(`${state.errors.TypeError}`);
+			alert(`${state.errors[1]}`);
 		}
 	};
 
@@ -41,12 +63,14 @@ const Contact = () => {
 				<form className="form row-flex" onSubmit={handleSubmit}>
 					<div className="form-card">
 						<input
+							ref={firstNameRef}
 							id="first-name"
 							name="First Name"
 							type="text"
 							placeholder="First Name"
 						/>
 						<input
+							ref={lastNameRef}
 							id="last-name"
 							name="Last Name"
 							type="text"
@@ -54,13 +78,20 @@ const Contact = () => {
 						/>
 					</div>
 					<div className="form-card">
-						<input id="email" name="email" type="email" placeholder="Email" />
+						<input
+							ref={emailRef}
+							id="email"
+							name="email"
+							type="email"
+							placeholder="Email"
+						/>
 						<ValidationError
 							prefix="Email"
 							field="email"
 							errors={state.errors}
 						/>
 						<input
+							ref={subjectRef}
 							id="subject"
 							name="subject"
 							type="text"
@@ -68,6 +99,7 @@ const Contact = () => {
 						/>
 					</div>
 					<textarea
+						ref={textareaRef}
 						id="message"
 						name="messsage"
 						placeholder="Message"
