@@ -63,7 +63,6 @@ function App() {
       top: 0,
       behavior: 'smooth',
     })
-    console.log('Hello')
   }
 
   useEffect(() => {
