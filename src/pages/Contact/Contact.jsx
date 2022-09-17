@@ -9,6 +9,7 @@ const formSpreeKey = process.env.REACT_APP_FORMSPREE_KEY;
 const Contact = () => {
 	// Form State
 	const [state, handleSubmit] = useForm(`${formSpreeKey}`);
+
 	if (state.succeeded) {
 		return (
 			<div className="form-success animate__animated animate__zoomInDown">
@@ -19,6 +20,12 @@ const Contact = () => {
 			</div>
 		);
 	}
+
+	const handleSubmitForm = () => {
+		if (state.errors && state.succeeded === false) {
+			alert(`${state.errors.TypeError}`);
+		}
+	};
 
 	return (
 		<section className="contact animate__animated animate__fadeInDown">
@@ -65,7 +72,11 @@ const Contact = () => {
 						name="messsage"
 						placeholder="Message"
 					></textarea>
-					<button type="submit" disabled={state.submitting}>
+					<button
+						type="submit"
+						disabled={state.submitting}
+						onClick={handleSubmitForm}
+					>
 						Send
 					</button>
 				</form>

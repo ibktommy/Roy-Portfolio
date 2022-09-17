@@ -91,6 +91,7 @@
         font-size: 2.5rem;
         text-transform: uppercase;
         letter-spacing: .2rem;
+        cursor: pointer;
 
         &:hover {
           background: var(--sec-color);
@@ -179,6 +180,19 @@
         button {
           padding: 1rem 0;
           font-size: 1.8rem;
+        }
+      }
+
+      &-info {
+        &_card {
+          &-para {
+            h5 {
+              font-size: 1.6rem;
+            }
+            p {
+              font-size: 1.4rem;
+            }
+          }
         }
       }
     }
