@@ -14,7 +14,7 @@ import CheckOutThreeImage from '../../images/topmost/main/checkout-3.png'
 const VirtualDesign = () => {
   return (
     <div className="topmost-virtual">
-      <h4>Virtual Design</h4>
+      <h4>Visual Design</h4>
 
       <div className="topmost-virtual_content-column flex">
         <div className="topmost-virtual_content-column_text">

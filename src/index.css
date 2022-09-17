@@ -10,8 +10,8 @@ html {
 
 /* SPECIAL CLASSES */
 :root {
-  --pry-font: 'League Spartan', sans-serif;
-  --sec-font: 'Montserrat', sans-serif;
+  --pry-font: 'Poppins', sans-serif;
+  --sec-font: 'Poppins', sans-serif;
 }
 
 .light-theme {
@@ -26,8 +26,6 @@ html {
   --image-shadow: drop-shadow(2px 2px 15px rgba(0,0,0,.35));
   --pry-box-shadow: rgba(0,0,0,.24) 0px 3px 8px;
   --bg-color: rgb(232, 255, 255);
-  --pry-font: 'League Spartan', sans-serif;
-  --sec-font: 'Montserrat', sans-serif;
 }
 
 .dark-theme {
@@ -85,7 +83,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: .3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
   text-shadow: var(--text-shadow);
 }
 
