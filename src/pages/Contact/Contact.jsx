@@ -1,17 +1,22 @@
 import React, { useRef, useState } from "react";
 import "./Contact.scss";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 // Formspree Key
 const formSpreeKey = process.env.REACT_APP_FORMSPREE_KEY;
 const url = `https://formcarry.com/s/${formSpreeKey}`;
 
 const Contact = () => {
+	// Set State for Contact Page
 	const [firstName, setFirstName] = useState("");
 	const [lastName, setLastName] = useState("");
 	const [email, setEmail] = useState("");
 	const [subject, setSubject] = useState("");
 	const [message, setMessage] = useState("");
+
+	// Set Navigate
+	const navigate = useNavigate();
 
 	// Function to Submit Form
 	const formSubmitHandler = async (e) => {
@@ -42,7 +47,8 @@ const Contact = () => {
 			})
 				.then((response) => {
 					if (response.status === 200) {
-						alert("THANKS, YOUR MESSAGE HAS BEEN SENT");
+						// alert("THANKS, YOUR MESSAGE HAS BEEN SENT");
+						navigate("/contact/success");
 					}
 				})
 				.catch((error) => {
