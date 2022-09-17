@@ -30,6 +30,7 @@
       justify-content: space-between;
       gap: 1.5rem;
       align-items: center;
+      margin-top: 3rem;
 
       &-content {
         flex-basis: 50%;
@@ -125,6 +126,12 @@
 
         ul {
           margin-left: 2rem;
+
+          li {
+            p {
+              font-size: 1.5rem;
+            }
+          }
         }
       }
 
@@ -448,8 +455,8 @@
         }
       }
 
-      &_filter-section_text ul li {
-        font-size: 1.1rem;
+      &_filter-section_text ul li p{
+        font-size: 1.2rem;
       }
 
       &_promotion, &_footer {

@@ -56,13 +56,6 @@
   }
 
   .gen-details-visual {
-    h5 {
-      font-size: 1.5rem;
-      font-style: italic;
-      font-weight: 500;
-      margin-bottom: .8rem;
-    }
-
     & .image-container:first-of-type {
       img {
         width: 40vw;
@@ -72,16 +65,11 @@
     &_process {
       ol {
         display: inline-block;
-        margin-left: 1.5rem;
-
-        li {
-          font-weight: 500;
-          font-size: 1.4rem;
-        }
+        margin-left: 2rem;
       }
 
       p {
-      margin: 1.5rem 0;
+      margin: .5rem 0;
       }
 
       .image-container {

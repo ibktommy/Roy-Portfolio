@@ -41,10 +41,18 @@ const VirtualDesign = () => {
           </p>
 
           <ul>
-            <li>Filter by size</li>
-            <li>Filter by star ratings</li>
-            <li>Filter by brands</li>
-            <li>Filter by available discount offers</li>
+            <li>
+              <p>Filter by size</p>
+            </li>
+            <li>
+              <p>Filter by star ratings</p>
+            </li>
+            <li>
+              <p>Filter by brands</p>
+            </li>
+            <li>
+              <p>Filter by available discount offers</p>
+            </li>
           </ul>
           <p>
             The price filter bar was made prominent too.

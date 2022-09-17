@@ -219,9 +219,15 @@ const Maclassics = () => {
 						three screens.
 					</h5>
 					<ol>
-						<li>Delivey</li>
-						<li>Payment</li>
-						<li>Summary</li>
+						<li>
+							<p>Delivey</p>
+						</li>
+						<li>
+							<p>Payment</p>
+						</li>
+						<li>
+							<p>Summary</p>
+						</li>
 					</ol>
 
 					<p>

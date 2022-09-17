@@ -125,26 +125,25 @@ section .contact {
   font-size: 4rem;
   font-weight: 700;
   text-align: justify;
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: 8rem;
 }
 
 h4 {
-    font-size: 2.8rem;
-    margin: .8rem 0;
+    font-size: 3rem;
+    margin: .8rem 0 1rem 0;
     text-transform: capitalize;
   }
 
 h5 {
-  font-size: 1.45rem;
-  text-transform: capitalize;
-  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 p {
   font-size: 1.6rem;
   text-align: justify;
-  line-height: 1.4;
+  line-height: 1.5;
   margin-bottom: .5rem;
 }
 
@@ -352,18 +351,15 @@ nav .toggle-btn .theme {
   }
 
   h4 {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
 
   h5 {
-    font-size: 1.35rem;
-    text-transform: capitalize;
-    font-weight: 600;
-    font-style: italic;
+    font-size: 1.6rem;
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .header-showcase {
@@ -381,7 +377,6 @@ nav .toggle-btn .theme {
 
 @media (max-width: 900px) {
   .project-header {
-    line-height: 1.2;
     text-align: center;
     margin-bottom: 5rem;
   }
@@ -436,14 +431,11 @@ nav .toggle-btn .theme {
   }
 
   h4 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h5 {
-    font-size: 1.15rem;
-    font-weight: 600;
-    font-style: italic;
-    text-transform: capitalize;
+    font-size: 1.3rem;
   }
 
   p {
