@@ -10,7 +10,7 @@ const Contact = () => {
 	// Form State
 	const [state, handleSubmit] = useForm(`${formSpreeKey}`);
 
-	if (state.succeeded === true && state.errors === []) {
+	if (state.succeeded) {
 		return (
 			<div className="form-success animate__animated animate__zoomInDown">
 				<p className="form-text">
