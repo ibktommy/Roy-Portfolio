@@ -43,11 +43,16 @@ const Contact = () => {
 					Subject: subject,
 					Message: message,
 				},
-			}).catch((error) => {
-				alert("OOPS! SOMETHING WENT WRONG!");
-			});
+			})
+				.then((response) => {
+					if (response.status === 200) {
+						navigate("/contact/success");
+					}
+				})
+				.catch((error) => {
+					alert("OOPS! SOMETHING WENT WRONG!");
+				});
 
-			navigate("/contact/success");
 		}
 	};
 
