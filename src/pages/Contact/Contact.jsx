@@ -43,14 +43,9 @@ const Contact = () => {
 					Subject: subject,
 					Message: message,
 				},
-			})
-				.then((response) => {
-					if (response.status === 200) {
-					}
-				})
-				.catch((error) => {
-					alert("OOPS! SOMETHING WENT WRONG!");
-				});
+			}).catch((error) => {
+				alert("OOPS! SOMETHING WENT WRONG!");
+			});
 
 			navigate("/contact/success");
 		}
