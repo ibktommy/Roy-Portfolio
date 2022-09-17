@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.scss";
 import FormImage from "../../images/logo/thanks.gif";
@@ -10,13 +10,7 @@ const Contact = () => {
 	// Form State
 	const [state, handleSubmit] = useForm(`${formSpreeKey}`);
 
-	const firstNameRef = useRef(null);
-	const lastNameRef = useRef(null);
-	const emailRef = useRef(null);
-	const subjectRef = useRef(null);
-	const textareaRef = useRef(null);
-
-	if (state.succeeded) {
+	if (state.succeeded === true && state.errors === []) {
 		return (
 			<div className="form-success animate__animated animate__zoomInDown">
 				<p className="form-text">
@@ -26,28 +20,6 @@ const Contact = () => {
 			</div>
 		);
 	}
-
-	const handleSubmitForm = () => {
-		if (
-			firstNameRef.current.value ||
-			lastNameRef.current.value ||
-			emailRef.current.value ||
-			subjectRef.current.value ||
-			textareaRef.current.value === " "
-		) {
-			alert("PLEASE FILL IN ALL FORM FIELDS!");
-			[
-				firstNameRef.current.value,
-				lastNameRef.current.value,
-				emailRef.current.value,
-				subjectRef.current.value,
-				textareaRef.current.value,
-			] = ["", "", "", "", ""];
-		}
-		if (state.errors && state.succeeded === false) {
-			alert(`${state.errors[1]}`);
-		}
-	};
 
 	return (
 		<section className="contact animate__animated animate__fadeInDown">
@@ -60,55 +32,57 @@ const Contact = () => {
 			</p>
 
 			<div className="contact-details">
-				<form className="form row-flex" onSubmit={handleSubmit}>
+				<form method="POST" className="form row-flex" onSubmit={handleSubmit}>
 					<div className="form-card">
 						<input
-							ref={firstNameRef}
 							id="first-name"
 							name="First Name"
 							type="text"
 							placeholder="First Name"
 						/>
+						<ValidationError
+							prefix="First Name"
+							field="first-name"
+							errors={state.errors}
+						/>
 						<input
-							ref={lastNameRef}
 							id="last-name"
 							name="Last Name"
 							type="text"
 							placeholder="Last Name"
 						/>
+						<ValidationError
+							prefix="Last Name"
+							field="last-name"
+							errors={state.errors}
+						/>
 					</div>
 					<div className="form-card">
-						<input
-							ref={emailRef}
-							id="email"
-							name="email"
-							type="email"
-							placeholder="Email"
-						/>
+						<input id="email" name="email" type="email" placeholder="Email" />
 						<ValidationError
 							prefix="Email"
 							field="email"
 							errors={state.errors}
 						/>
 						<input
-							ref={subjectRef}
 							id="subject"
 							name="subject"
 							type="text"
 							placeholder="Subject"
 						/>
+						<ValidationError
+							prefix="Subject"
+							field="subject"
+							errors={state.errors}
+						/>
 					</div>
-					<textarea
-						ref={textareaRef}
-						id="message"
-						name="messsage"
-						placeholder="Message"
-					></textarea>
-					<button
-						type="submit"
-						disabled={state.submitting}
-						onClick={handleSubmitForm}
-					>
+					<textarea id="message" name="messsage" placeholder="Message" />
+					<ValidationError
+						prefix="Message"
+						field="message"
+						errors={state.errors}
+					/>
+					<button type="submit" disabled={state.submitting}>
 						Send
 					</button>
 				</form>
