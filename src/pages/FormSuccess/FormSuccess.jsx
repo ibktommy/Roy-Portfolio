@@ -1,6 +1,7 @@
 import React from "react";
 import "./FormSuccess.scss";
 import FormImage from "../../images/logo/thanks.gif";
+import Footer from "../../components/Footer";
 
 const FormSuccess = () => {
 	return (
@@ -9,6 +10,7 @@ const FormSuccess = () => {
 				Your Message as been sent, I will respond shortly. Thanks!
 			</p>
 			<img src={FormImage} alt="formgif" />
+			<Footer />
 		</div>
 	);
 };
