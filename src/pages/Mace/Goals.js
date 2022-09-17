@@ -8,10 +8,18 @@ const Goals = () => {
         In the process of user research and design thinking, the followings goals are prioritised for the Mace application:
       </p>
       <ul>
-        <li>Present a proof of product to potential investors to boost expansion.</li>
-        <li>Extend the capabilities of the Mace establishment.</li>
-        <li>Effect the sales of product to consumers.</li>
-        <li>Make Mace the suitable place to get high quality furnitures.</li>
+        <li>
+          <p>Present a proof of product to potential investors to boost expansion.</p>
+        </li>
+        <li>
+          <p>Extend the capabilities of the Mace establishment.</p>
+        </li>
+        <li>
+          <p>Effect the sales of product to consumers.</p>
+        </li>
+        <li>
+          <p>Make Mace the suitable place to get high quality furnitures.</p>
+        </li>
       </ul>
     </div>
   )
