@@ -9,10 +9,18 @@ const Statement = () => {
         While conducting research as regards the needs of people on what they need on the N-PAY app the following were identified:
       </p>
       <ol>
-        <li>Citizens want to have a detailed history of their tax/bill payments on their devices.</li>
-        <li>Receipt of payments should be downloadable and shareable from the app.</li>
-        <li>Another challenge is the lack of a platform to inform users about the latest govenment decision which can influence bill payments.</li>
-        <li>Also, users especially private workers need a form of reminder to inform them about due owings and amounts.</li>
+        <li>
+          <p>Citizens want to have a detailed history of their tax/bill payments on their devices.</p>
+        </li>
+        <li>
+          <p>Receipt of payments should be downloadable and shareable from the app.</p>
+        </li>
+        <li>
+          <p>Another challenge is the lack of a platform to inform users about the latest govenment decision which can influence bill payments.</p>
+        </li>
+        <li>
+          <p>Also, users especially private workers need a form of reminder to inform them about due owings and amounts.</p>
+        </li>
       </ol>
     </div>
   )
