@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./Contact.scss";
 import axios from "axios";
-import FormImage from "../../images/logo/thanks.gif";
 
 // Formspree Key
 const formSpreeKey = process.env.REACT_APP_FORMSPREE_KEY;

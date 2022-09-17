@@ -1,0 +1,39 @@
+.container {
+  .form-success {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    animation-duration: 2s;
+
+  .form-text {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+
+  img {
+    filter: none;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 10%;
+    object-fit: cover;
+  }
+}
+}
+
+@media (max-width: 768px) {
+  .container {
+    .form-success {
+    .form-text {
+      font-size: 2rem;
+    }
+    img {
+      width: 70vw;
+      height: 70vw;
+    }
+  }
+  }
+}
