@@ -117,7 +117,8 @@ section.maclassics,
 section.topmost,
 section.isave,
 section.exquite,
-section.mace {
+section.mace,
+section .contact {
   --animate-duration: 1.5s;
 }
 
@@ -223,7 +224,7 @@ nav .links .contact span {
   font-size: 1.8rem;
   cursor: pointer;
   font-weight: 600;
-  color: var(--sec-color);
+  color: var(--dark-color);
   letter-spacing: .1rem;
 }
 
@@ -236,7 +237,7 @@ nav .links .contact:hover {
 nav .links .projects i {
   font-size: 1.6rem;
   margin-left: .5rem;
-  color: var(--sec-color);
+  color: var(--dark-color);
   cursor: pointer;
 }
 
