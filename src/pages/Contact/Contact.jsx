@@ -15,8 +15,7 @@ const Contact = () => {
 	const [subject, setSubject] = useState("");
 	const [message, setMessage] = useState("");
 
-	// Set Navigate
-	const navigate = useNavigate();
+	let navigate = useNavigate();
 
 	// Function to Submit Form
 	const formSubmitHandler = async (e) => {
@@ -47,13 +46,13 @@ const Contact = () => {
 			})
 				.then((response) => {
 					if (response.status === 200) {
-						// alert("THANKS, YOUR MESSAGE HAS BEEN SENT");
-						navigate("/contact/success");
 					}
 				})
 				.catch((error) => {
 					alert("OOPS! SOMETHING WENT WRONG!");
 				});
+
+			navigate("/contact/success");
 		}
 	};
 
