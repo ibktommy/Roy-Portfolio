@@ -43,9 +43,7 @@ const Contact = () => {
 					Subject: subject,
 					Message: message,
 				},
-			}).catch((error) => {
-				alert("OOPS! SOMETHING WENT WRONG!");
-			});
+			})
 
 			navigate("/contact/success");
 		}
