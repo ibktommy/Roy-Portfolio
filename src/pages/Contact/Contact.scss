@@ -152,6 +152,17 @@
 }
 
 @media (max-width: 768px) {
+  .form-success {
+    .form-text {
+      font-size: 1.8rem;
+    }
+    img {
+      width: 70vw;
+      height: 70vw;
+    }
+  }
+
+
   .contact {
     &-details {
       .form {
