@@ -1,5 +1,5 @@
 import React from 'react'
-import DesignImage from '../../images/topmost/main/checkout-1.png'
+import DesignImage from '../../images/topmost/main/components.png'
 
 const DesignSystem = () => {
   return (
