@@ -24,7 +24,7 @@ const Home = () => {
 					experience.
 				</p>
 				<a href={Resume} target="_blank" rel="noreferrer" className="resume">
-					View Resume
+					view my resume
 				</a>
 			</header>
 			<h2 className="title">Work Experience</h2>
