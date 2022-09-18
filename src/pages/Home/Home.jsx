@@ -1,8 +1,7 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import "./Home.scss";
-import homeData from './HomeData.json'
-import HomeCard from '../../components/HomeCard'
+import homeData from "./HomeData.json";
+import HomeCard from "../../components/HomeCard";
 import Resume from "../../pdf/01 - AbdulrazzaqRoy-resume.pdf";
 import Footer from "../../components/Footer";
 
@@ -27,9 +26,6 @@ const Home = () => {
 				<a href={Resume} target="_blank" rel="noreferrer" className="resume">
 					View Resume
 				</a>
-				{/* <Link to={Resume} className="resume">
-					View my resume
-				</Link> */}
 			</header>
 			<h2 className="title">Work Experience</h2>
 			{homeData.map(({ id, ...props }) => {
