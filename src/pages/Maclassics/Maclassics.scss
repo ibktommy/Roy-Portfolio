@@ -25,6 +25,16 @@
     }
   }
 
+  .gen-details-statement {
+    ul {
+      margin-left: 2.5rem;
+
+      li p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
   .gen-details-wireframe {
     .image-container {
       img {
@@ -194,6 +204,14 @@
     .details-img {
       img {
         width: 75vw;
+      }
+    }
+
+    .gen-details-statement {
+      ul {
+        li p {
+          font-size: 1.05rem;
+        }
       }
     }
 

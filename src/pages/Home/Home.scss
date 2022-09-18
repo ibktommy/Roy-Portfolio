@@ -19,7 +19,7 @@ header {
 
   .resume {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2rem;
     letter-spacing: .3rem;
     color: var(--pry-color);

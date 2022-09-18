@@ -78,13 +78,29 @@ const Maclassics = () => {
 					The company do not have a mobile platform to recieve orders and
 					coordinate deliveries to its cutomers across the country. In
 					developing an insight into what will be needed for the company’s
-					mobile application the following pain points were discovered. The need
-					for a platform to request for cake designs seen somewhere else which
-					gives a customization power to users. The need for an app that
-					provides a wide range of cakes suitable for numerous events. A
-					platform that can facilitate the request and delivery of preferred
-					flavours at a preset date and time in a quick process .
+					mobile application the following pain points were discovered.
 				</p>
+
+				<ul>
+					<li>
+						<p>
+							The need for a platform to request for cake designs seen somewhere
+							else which gives a customization power to users.{" "}
+						</p>
+					</li>
+					<li>
+						<p>
+							The need for an app that provides a wide range of cakes suitable
+							for numerous events.
+						</p>
+					</li>
+					<li>
+						<p>
+							A platform that can facilitate the request and delivery of
+							preferred flavours at a preset date and time in a quick process.
+						</p>
+					</li>
+				</ul>
 			</div>
 
 			<div className="gen-details-userflow">
