@@ -14,14 +14,11 @@ const Home = () => {
 					is a Product Design expert who has a high value for promotion of
 					information architecture and product development processes which
 					includes:{" "}
-					<em>
-						<b>
-							"Identifying Problems, Analyzing Information and Proferring
-							Solutions to issues that Enhances User Experience".
-						</b>
-					</em>{" "}
-					{"  "}I specialize in shaping brands and defining product’s user
-					experience.
+					<b>
+						"Identifying Problems, Analyzing Information and Proferring
+						Solutions to issues that Enhances User Experience".
+					</b>{" "}
+					I specialize in shaping brands and defining product’s user experience.
 				</p>
 				<a href={Resume} target="_blank" rel="noreferrer" className="resume">
 					view my resume
