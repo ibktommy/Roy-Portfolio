@@ -161,6 +161,11 @@ header {
 @media (max-width: 550px) {
   header {
     p {
+
+      span {
+        display: inline-block;
+        width: 100%;
+      }
       text-align: center;
       word-spacing: .5rem;
     }
